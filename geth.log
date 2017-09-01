@@ -1,0 +1,1158 @@
+WARN [08-30|13:48:33] No etherbase set and no accounts found as default 
+INFO [08-30|13:48:33] Starting peer-to-peer node               instance=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.8.3
+INFO [08-30|13:48:33] Allocated cache and file handles         database=/Users/cb_yeti/Library/Ethereum/testnet/geth/chaindata cache=1024 handles=1024
+INFO [08-30|13:48:41] Initialised chain configuration          config="{ChainID: 3 Homestead: 0 DAO: <nil> DAOSupport: true EIP150: 0 EIP155: 10 EIP158: 10 Metropolis: 9223372036854775807 Engine: ethash}"
+INFO [08-30|13:48:41] Disk storage enabled for ethash caches   dir=/Users/cb_yeti/Library/Ethereum/testnet/geth/ethash count=3
+INFO [08-30|13:48:41] Disk storage enabled for ethash DAGs     dir=/Users/cb_yeti/.ethash                              count=2
+INFO [08-30|13:48:41] Initialising Ethereum protocol           versions="[63 62]" network=3
+INFO [08-30|13:48:41] Loaded most recent local header          number=1581886 hash=f5a1d4…a9a01e td=1699832049719937
+INFO [08-30|13:48:41] Loaded most recent local full block      number=1581886 hash=f5a1d4…a9a01e td=1699832049719937
+INFO [08-30|13:48:41] Loaded most recent local fast block      number=1581886 hash=f5a1d4…a9a01e td=1699832049719937
+WARN [08-30|13:48:41] Blockchain not empty, fast sync disabled 
+INFO [08-30|13:48:41] Starting P2P networking 
+INFO [08-30|13:48:43] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-30|13:48:43] UDP listener up                          self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-30|13:48:43] RLPx listener up                         self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-30|13:48:43] IPC endpoint opened: /Users/cb_yeti/Library/Ethereum/testnet/geth.ipc 
+INFO [08-30|13:48:43] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [08-30|13:48:43] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-30|13:48:53] Block synchronisation started 
+INFO [08-30|13:48:55] Imported new chain segment               blocks=2 txs=5 mgas=0.529 elapsed=52.088ms mgasps=10.151 number=1581888 hash=667a9c…71b71e
+INFO [08-30|13:48:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.739ms  mgasps=0.000  number=1581889 hash=0361a7…f5f56d
+INFO [08-30|13:48:58] Imported new chain segment               blocks=1 txs=3 mgas=0.248 elapsed=135.766ms mgasps=1.829  number=1581890 hash=48c1a9…9e0dcf
+INFO [08-30|13:49:02] Imported new chain segment               blocks=1 txs=2 mgas=0.252 elapsed=24.502ms  mgasps=10.272 number=1581891 hash=499e41…e9045f
+INFO [08-30|13:49:19] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.193ms   mgasps=0.000  number=1581892 hash=23666b…1b0ba1
+INFO [08-30|13:49:22] Imported new chain segment               blocks=1 txs=3 mgas=0.246 elapsed=19.878ms  mgasps=12.351 number=1581893 hash=cf2cfa…ba77d0
+INFO [08-30|13:49:43] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.371ms   mgasps=0.000  number=1581894 hash=7de3f1…db0adb
+INFO [08-30|13:49:45] Imported new chain segment               blocks=1 txs=6 mgas=1.108 elapsed=23.857ms  mgasps=46.447 number=1581895 hash=ad93db…717c7b
+INFO [08-30|13:49:50] New wallet appeared                      url=keystore:///Users/cb_yeti/Libra… status=Locked
+INFO [08-30|13:49:51] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.951ms   mgasps=0.000  number=1581896 hash=74f5a4…265e2b
+INFO [08-30|13:50:07] Imported new chain segment               blocks=1 txs=1 mgas=0.250 elapsed=11.676ms  mgasps=21.411 number=1581897 hash=2b8ff4…32c5f4
+INFO [08-30|13:50:34] Imported new chain segment               blocks=1 txs=3 mgas=0.677 elapsed=17.482ms  mgasps=38.734 number=1581898 hash=7e9803…c4c115
+INFO [08-30|13:50:38] Imported new chain segment               blocks=1 txs=3 mgas=0.167 elapsed=14.580ms  mgasps=11.446 number=1581899 hash=389ff1…7d5777
+INFO [08-30|13:50:49] Imported new chain segment               blocks=1 txs=1 mgas=1.147 elapsed=25.984ms  mgasps=44.128 number=1581900 hash=b0251b…e3e738
+INFO [08-30|13:50:59] Imported new chain segment               blocks=1 txs=1 mgas=0.064 elapsed=11.174ms  mgasps=5.704  number=1581901 hash=6612c4…10a745
+INFO [08-30|13:51:00] Imported new chain segment               blocks=1 txs=1 mgas=0.230 elapsed=16.646ms  mgasps=13.845 number=1581902 hash=e69687…69fa74
+INFO [08-30|13:51:01] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.294ms   mgasps=0.000  number=1581903 hash=937fa2…9e7a62
+INFO [08-30|13:51:01] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.834ms  mgasps=0.000  number=1581903 hash=ef25b2…e91c71
+INFO [08-30|13:51:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.340ms   mgasps=0.000  number=1581904 hash=30a374…45b3bd
+INFO [08-30|13:51:16] Imported new chain segment               blocks=1 txs=1 mgas=0.217 elapsed=23.292ms  mgasps=9.318  number=1581905 hash=1419a2…4ece3f
+INFO [08-30|13:51:26] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=18.529ms  mgasps=0.000  number=1581906 hash=564124…77b36b
+INFO [08-30|13:51:40] Imported new chain segment               blocks=1 txs=1 mgas=0.299 elapsed=17.456ms  mgasps=17.134 number=1581907 hash=f91709…44191f
+INFO [08-30|13:51:56] Imported new chain segment               blocks=1 txs=4 mgas=0.386 elapsed=24.934ms  mgasps=15.492 number=1581908 hash=5000ad…eceba8
+INFO [08-30|13:52:06] Imported new chain segment               blocks=1 txs=1 mgas=0.037 elapsed=10.977ms  mgasps=3.347  number=1581909 hash=06343a…971d23
+INFO [08-30|13:52:19] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.515ms  mgasps=0.000  number=1581910 hash=72fd91…8af112
+INFO [08-30|13:52:36] Imported new chain segment               blocks=1 txs=2 mgas=0.863 elapsed=15.548ms  mgasps=55.513 number=1581911 hash=6e2581…9fbbc7
+INFO [08-30|13:52:44] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.515ms   mgasps=0.000  number=1581912 hash=4b505b…2aad4a
+INFO [08-30|13:52:48] Imported new chain segment               blocks=1 txs=1 mgas=1.038 elapsed=11.511ms  mgasps=90.178 number=1581913 hash=5df268…f1e0ec
+INFO [08-30|13:52:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.487ms  mgasps=0.000  number=1581914 hash=50be02…f6a31d
+INFO [08-30|13:53:01] Imported new chain segment               blocks=1 txs=2 mgas=0.387 elapsed=14.884ms  mgasps=26.012 number=1581915 hash=1ab7e0…bf9d9f
+INFO [08-30|13:53:05] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.701ms   mgasps=0.000  number=1581916 hash=ad8ea3…f577f9
+INFO [08-30|13:53:08] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.419ms  mgasps=0.000  number=1581917 hash=6d855d…4f5c13
+INFO [08-30|13:53:39] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.977ms   mgasps=0.000  number=1581918 hash=6383dc…b30d28
+INFO [08-30|13:53:44] Imported new chain segment               blocks=1 txs=11 mgas=1.564 elapsed=48.215ms  mgasps=32.440 number=1581919 hash=843cdd…86b74c
+INFO [08-30|13:53:58] Imported new chain segment               blocks=1 txs=2  mgas=0.042 elapsed=12.797ms  mgasps=3.282  number=1581920 hash=d4dc06…129e38
+INFO [08-30|13:54:02] Imported new chain segment               blocks=1 txs=1  mgas=0.021 elapsed=16.282ms  mgasps=1.290  number=1581921 hash=e69494…35d5f6
+INFO [08-30|13:54:20] Imported new chain segment               blocks=1 txs=1  mgas=0.021 elapsed=11.156ms  mgasps=1.882  number=1581922 hash=89ad5e…165f22
+INFO [08-30|13:54:41] Imported new chain segment               blocks=1 txs=12 mgas=0.777 elapsed=27.589ms  mgasps=28.152 number=1581923 hash=064551…34415c
+INFO [08-30|13:54:42] Imported new chain segment               blocks=1 txs=11 mgas=0.756 elapsed=24.028ms  mgasps=31.450 number=1581923 hash=f2feac…71cc21
+INFO [08-30|13:54:47] Imported new chain segment               blocks=1 txs=2  mgas=4.587 elapsed=27.854ms  mgasps=164.678 number=1581924 hash=93a4d4…1f1705
+INFO [08-30|13:54:54] Imported new chain segment               blocks=1 txs=21 mgas=0.441 elapsed=21.122ms  mgasps=20.878  number=1581925 hash=b027f0…ee6372
+INFO [08-30|13:55:05] Imported new chain segment               blocks=1 txs=3  mgas=0.063 elapsed=14.997ms  mgasps=4.201   number=1581926 hash=cec389…ff969a
+INFO [08-30|13:55:07] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.327ms   mgasps=0.000   number=1581927 hash=14f783…1b720c
+INFO [08-30|13:55:12] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=8.970ms   mgasps=25.694  number=1581928 hash=2ffd85…94e84a
+INFO [08-30|13:55:14] Imported new chain segment               blocks=1 txs=1  mgas=0.050 elapsed=10.695ms  mgasps=4.717   number=1581929 hash=ef5833…055e91
+INFO [08-30|13:55:53] Imported new chain segment               blocks=1 txs=1  mgas=0.099 elapsed=28.175ms  mgasps=3.498   number=1581930 hash=97e6dc…91d437
+INFO [08-30|13:56:16] Imported new chain segment               blocks=1 txs=2  mgas=0.251 elapsed=10.242ms  mgasps=24.553  number=1581931 hash=2ad0a9…632b95
+INFO [08-30|13:56:27] Imported new chain segment               blocks=1 txs=3  mgas=0.171 elapsed=19.527ms  mgasps=8.749   number=1581932 hash=67e151…695a87
+INFO [08-30|13:56:37] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.015ms   mgasps=0.000   number=1581933 hash=f9668e…47b2f0
+INFO [08-30|13:57:03] Imported new chain segment               blocks=1 txs=3  mgas=0.428 elapsed=45.335ms  mgasps=9.435   number=1581934 hash=900d80…d84527
+INFO [08-30|13:57:09] Imported new chain segment               blocks=1 txs=3  mgas=0.323 elapsed=29.309ms  mgasps=11.024  number=1581935 hash=cd5783…8f2081
+INFO [08-30|13:57:28] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=11.406ms  mgasps=0.000   number=1581936 hash=13803e…5079a0
+INFO [08-30|13:57:46] Imported new chain segment               blocks=1 txs=1  mgas=0.021 elapsed=9.485ms   mgasps=2.214   number=1581937 hash=de3a0e…e9a06e
+INFO [08-30|13:58:09] Imported new chain segment               blocks=1 txs=3  mgas=0.063 elapsed=22.759ms  mgasps=2.768   number=1581938 hash=9d0fe2…6b3dab
+INFO [08-30|13:58:11] Imported new chain segment               blocks=1 txs=3  mgas=4.300 elapsed=12.828ms  mgasps=335.214 number=1581939 hash=008672…af782d
+INFO [08-30|13:58:13] Imported new chain segment               blocks=1 txs=1  mgas=0.021 elapsed=10.348ms  mgasps=2.029   number=1581940 hash=3098cc…ada872
+INFO [08-30|13:58:23] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=11.302ms  mgasps=0.000   number=1581941 hash=ffffcc…584c27
+INFO [08-30|13:58:48] Imported new chain segment               blocks=1 txs=1  mgas=0.299 elapsed=18.600ms  mgasps=16.080  number=1581942 hash=e88aa9…7eb901
+INFO [08-30|13:59:13] Imported new chain segment               blocks=1 txs=5  mgas=1.350 elapsed=48.383ms  mgasps=27.904  number=1581943 hash=a020a7…bc6d83
+INFO [08-30|13:59:16] Imported new chain segment               blocks=1 txs=1  mgas=0.266 elapsed=9.550ms   mgasps=27.809  number=1581944 hash=4b8d6a…77557b
+INFO [08-30|13:59:35] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.273ms   mgasps=0.000   number=1581945 hash=852243…5ad364
+INFO [08-30|13:59:39] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.417ms   mgasps=0.000   number=1581946 hash=d6b720…d0d46e
+INFO [08-30|13:59:58] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.836ms   mgasps=0.000   number=1581947 hash=01ce43…f4aad5
+INFO [08-30|13:59:58] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=9.208ms   mgasps=25.029  number=1581947 hash=05b5d0…2f904d
+INFO [08-30|14:00:05] Imported new chain segment               blocks=1 txs=2  mgas=1.269 elapsed=15.287ms  mgasps=82.990  number=1581948 hash=808838…b64af6
+INFO [08-30|14:00:26] Imported new chain segment               blocks=1 txs=2  mgas=0.137 elapsed=24.031ms  mgasps=5.695   number=1581949 hash=5d2466…95c43e
+INFO [08-30|14:00:36] Imported new chain segment               blocks=1 txs=7  mgas=0.538 elapsed=42.201ms  mgasps=12.747  number=1581950 hash=1e2506…2a59eb
+INFO [08-30|14:00:48] Imported new chain segment               blocks=1 txs=2  mgas=0.214 elapsed=15.453ms  mgasps=13.817  number=1581951 hash=7e8d2f…eaa079
+INFO [08-30|14:00:57] Imported new chain segment               blocks=1 txs=2  mgas=0.197 elapsed=23.476ms  mgasps=8.398   number=1581952 hash=7fba7f…c3a880
+INFO [08-30|14:00:59] Imported new chain segment               blocks=1 txs=2  mgas=0.273 elapsed=7.965ms   mgasps=34.209  number=1581953 hash=cdf68f…61a88b
+INFO [08-30|14:01:04] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.579ms   mgasps=0.000   number=1581954 hash=ad8abf…2f2edb
+INFO [08-30|14:01:05] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=6.701ms   mgasps=0.000   number=1581954 hash=fb9746…3073e5
+INFO [08-30|14:01:05] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=6.972ms   mgasps=0.000   number=1581954 hash=3732bc…783568
+INFO [08-30|14:01:22] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=17.959ms  mgasps=0.000   number=1581955 hash=77cda2…e29e5e
+INFO [08-30|14:01:54] Imported new chain segment               blocks=1 txs=3  mgas=0.303 elapsed=13.674ms  mgasps=22.122  number=1581956 hash=742c4d…3a94e5
+INFO [08-30|14:02:03] Imported new chain segment               blocks=1 txs=1  mgas=1.796 elapsed=18.356ms  mgasps=97.815  number=1581957 hash=6d13b4…0ea265
+INFO [08-30|14:02:06] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.007ms   mgasps=0.000   number=1581958 hash=710d6a…92f63c
+INFO [08-30|14:02:09] Imported new chain segment               blocks=1 txs=1  mgas=1.796 elapsed=10.082ms  mgasps=178.098 number=1581959 hash=3e383a…74e2d6
+INFO [08-30|14:02:15] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=16.242ms  mgasps=0.000   number=1581959 hash=f8dd03…107f51
+INFO [08-30|14:02:16] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=7.052ms   mgasps=0.000   number=1581960 hash=6f76cb…3f0bc9
+INFO [08-30|14:02:26] Imported new chain segment               blocks=1 txs=2  mgas=2.495 elapsed=22.230ms  mgasps=112.227 number=1581961 hash=90a638…a255ed
+INFO [08-30|14:02:29] Imported new chain segment               blocks=1 txs=1  mgas=4.477 elapsed=14.446ms  mgasps=309.882 number=1581962 hash=0b5561…fac6b0
+INFO [08-30|14:02:36] Imported new chain segment               blocks=1 txs=1  mgas=0.027 elapsed=98.076ms  mgasps=0.275   number=1581963 hash=c63a6b…f380f5
+INFO [08-30|14:03:00] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.880ms  mgasps=0.000   number=1581964 hash=b4a3bc…58517c
+INFO [08-30|14:03:00] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=10.201ms  mgasps=22.591  number=1581964 hash=e9d1e7…54d5b9
+INFO [08-30|14:03:05] Imported new chain segment               blocks=1 txs=2  mgas=0.197 elapsed=31.044ms  mgasps=6.350   number=1581965 hash=aea8d5…271c6e
+INFO [08-30|14:03:27] Imported new chain segment               blocks=1 txs=1  mgas=1.796 elapsed=14.327ms  mgasps=125.325 number=1581966 hash=30a1c0…4bf5cc
+INFO [08-30|14:03:30] Imported new chain segment               blocks=1 txs=3  mgas=0.428 elapsed=17.910ms  mgasps=23.876  number=1581967 hash=a3d7b8…a81ffc
+INFO [08-30|14:03:31] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.362ms   mgasps=0.000   number=1581968 hash=c9c05d…b6d435
+INFO [08-30|14:03:54] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.234ms  mgasps=0.000   number=1581969 hash=b54370…5b04ba
+INFO [08-30|14:04:03] Imported new chain segment               blocks=1 txs=1  mgas=0.895 elapsed=12.437ms  mgasps=71.946  number=1581970 hash=f3a2be…c93a58
+INFO [08-30|14:04:25] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=19.954ms  mgasps=11.550  number=1581971 hash=de7810…ad199c
+INFO [08-30|14:04:26] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=9.324ms   mgasps=24.718  number=1581971 hash=13c5a7…9a07ae
+INFO [08-30|14:04:34] Imported new chain segment               blocks=1 txs=2  mgas=0.086 elapsed=24.658ms  mgasps=3.490   number=1581972 hash=9428f0…58ef3a
+INFO [08-30|14:04:43] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.611ms  mgasps=0.000   number=1581973 hash=fead2b…4f5c25
+INFO [08-30|14:05:03] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=15.471ms  mgasps=0.000   number=1581974 hash=c6513e…5d9215
+INFO [08-30|14:05:06] Imported new chain segment               blocks=1 txs=1  mgas=0.027 elapsed=7.407ms   mgasps=3.649   number=1581975 hash=118a9a…0398cb
+INFO [08-30|14:05:06] Imported new chain segment               blocks=1 txs=1  mgas=0.230 elapsed=10.853ms  mgasps=21.235  number=1581975 hash=b00a5c…d5fc24
+INFO [08-30|14:05:14] Imported new chain segment               blocks=1 txs=1  mgas=2.056 elapsed=10.211ms  mgasps=201.385 number=1581976 hash=323778…dbaaca
+INFO [08-30|14:05:20] Imported new chain segment               blocks=1 txs=3  mgas=2.809 elapsed=29.282ms  mgasps=95.935  number=1581977 hash=bddd39…0890bb
+INFO [08-30|14:05:44] Imported new chain segment               blocks=1 txs=1  mgas=1.582 elapsed=26.795ms  mgasps=59.043  number=1581978 hash=92245b…bcaccc
+INFO [08-30|14:05:56] Imported new chain segment               blocks=1 txs=5  mgas=0.559 elapsed=30.742ms  mgasps=18.179  number=1581979 hash=937aab…6b3963
+INFO [08-30|14:06:17] Imported new chain segment               blocks=1 txs=2  mgas=0.130 elapsed=12.852ms  mgasps=10.153  number=1581980 hash=79dc73…61edd8
+INFO [08-30|14:06:22] Imported new chain segment               blocks=1 txs=5  mgas=0.500 elapsed=25.370ms  mgasps=19.699  number=1581981 hash=761389…b77352
+INFO [08-30|14:06:57] Imported new chain segment               blocks=1 txs=1  mgas=0.085 elapsed=20.174ms  mgasps=4.203   number=1581982 hash=72704b…78dbdc
+INFO [08-30|14:07:38] Imported new chain segment               blocks=1 txs=4  mgas=1.322 elapsed=29.745ms  mgasps=44.429  number=1581983 hash=ac1974…8ed65c
+INFO [08-30|14:07:40] Imported new chain segment               blocks=1 txs=2  mgas=0.259 elapsed=12.691ms  mgasps=20.425  number=1581984 hash=051f70…92cbdf
+INFO [08-30|14:07:41] Imported new chain segment               blocks=1 txs=1  mgas=0.104 elapsed=13.667ms  mgasps=7.631   number=1581985 hash=8a9339…b9838b
+INFO [08-30|14:07:43] Imported new chain segment               blocks=1 txs=1  mgas=0.494 elapsed=14.095ms  mgasps=35.034  number=1581986 hash=358c98…9e8ca0
+INFO [08-30|14:07:46] Imported new chain segment               blocks=1 txs=1  mgas=0.433 elapsed=10.650ms  mgasps=40.616  number=1581987 hash=ec08f4…dc6291
+INFO [08-30|14:08:01] Imported new chain segment               blocks=1 txs=1  mgas=0.069 elapsed=16.064ms  mgasps=4.321   number=1581988 hash=3b457e…6aae68
+INFO [08-30|14:08:28] Imported new chain segment               blocks=1 txs=5  mgas=0.853 elapsed=36.047ms  mgasps=23.652  number=1581989 hash=27b979…bf91d5
+INFO [08-30|14:08:43] Imported new chain segment               blocks=1 txs=2  mgas=1.187 elapsed=15.172ms  mgasps=78.255  number=1581990 hash=ac91a7…3c7a55
+INFO [08-30|14:35:55] Imported new chain segment               blocks=45 txs=81 mgas=30.967 elapsed=784.138ms mgasps=39.492  number=1582035 hash=a063a9…b1c91f
+INFO [08-30|14:35:56] Imported new chain segment               blocks=109 txs=164 mgas=48.727 elapsed=1.327s    mgasps=36.719  number=1582144 hash=c036c8…2d75df
+INFO [08-30|14:36:09] Imported new chain segment               blocks=1   txs=1   mgas=0.021  elapsed=11.089ms  mgasps=1.894   number=1582145 hash=67fa1a…1a00fb
+INFO [08-30|14:36:25] Imported new chain segment               blocks=1   txs=3   mgas=1.369  elapsed=18.264ms  mgasps=74.956  number=1582146 hash=be1949…cba0d4
+INFO [08-30|14:36:29] Imported new chain segment               blocks=1   txs=4   mgas=0.162  elapsed=17.386ms  mgasps=9.293   number=1582147 hash=b0b5ca…42701f
+INFO [08-30|14:36:35] Imported new chain segment               blocks=1   txs=1   mgas=0.500  elapsed=7.441ms   mgasps=67.187  number=1582148 hash=c4c3d7…96a4c9
+INFO [08-30|15:30:34] Imported new chain segment               blocks=1   txs=0   mgas=0.000  elapsed=12.893ms  mgasps=0.000   number=1582149 hash=99696c…46ee7d
+INFO [08-30|15:30:34] Imported new chain segment               blocks=3   txs=4   mgas=1.545  elapsed=44.594ms  mgasps=34.650  number=1582152 hash=752bc9…8d696d
+INFO [08-30|15:30:34] Imported new chain segment               blocks=1   txs=0   mgas=0.000  elapsed=5.669ms   mgasps=0.000   number=1582153 hash=218303…415421
+INFO [08-30|15:30:34] Imported new chain segment               blocks=31  txs=50  mgas=18.570 elapsed=414.866ms mgasps=44.762  number=1582184 hash=f19bfe…edaf3d
+INFO [08-30|15:30:37] Imported new chain segment               blocks=235 txs=347 mgas=167.699 elapsed=2.899s    mgasps=57.843  number=1582419 hash=5d73ef…05c218
+WARN [08-30|17:18:14] Synchronisation failed, dropping peer    peer=20c9ad97c081d633 err="no peers available or all tried for download"
+INFO [08-30|17:18:55] Imported new chain segment               blocks=9   txs=43  mgas=11.689  elapsed=209.851ms mgasps=55.703  number=1582427 hash=064c53…4c5a94 ignored=12
+INFO [08-30|17:18:59] Imported new chain segment               blocks=252 txs=382 mgas=170.531 elapsed=2.823s    mgasps=60.397  number=1582679 hash=56e4dc…40643e
+INFO [08-30|17:19:01] Imported new chain segment               blocks=249 txs=397 mgas=165.660 elapsed=2.642s    mgasps=62.699  number=1582928 hash=923ebc…8b76da
+INFO [08-30|18:13:04] Imported new chain segment               blocks=2   txs=10  mgas=3.769   elapsed=73.549ms  mgasps=51.240  number=1582930 hash=50e49b…cecd35
+INFO [08-30|18:13:04] Imported new chain segment               blocks=2   txs=0   mgas=0.000   elapsed=7.738ms   mgasps=0.000   number=1582932 hash=b3471b…6ed971
+INFO [08-30|18:13:04] Imported new chain segment               blocks=29  txs=60  mgas=25.367  elapsed=401.228ms mgasps=63.224  number=1582961 hash=0beddf…79a5ee
+INFO [08-30|18:13:07] Imported new chain segment               blocks=183 txs=293 mgas=131.486 elapsed=2.787s    mgasps=47.166  number=1583144 hash=5fc501…186bb7
+INFO [08-30|18:13:07] Imported new chain segment               blocks=14  txs=17  mgas=7.737   elapsed=129.707ms mgasps=59.647  number=1583158 hash=4177e6…e33d46
+INFO [08-30|19:07:05] Imported new chain segment               blocks=1   txs=0   mgas=0.000   elapsed=14.658ms  mgasps=0.000   number=1583159 hash=92827b…f45e94
+INFO [08-30|19:07:07] Imported new chain segment               blocks=191 txs=253 mgas=64.676  elapsed=1.704s    mgasps=37.934  number=1583350 hash=618078…ee07dd
+INFO [08-30|19:07:08] Imported new chain segment               blocks=40  txs=43  mgas=5.427   elapsed=202.402ms mgasps=26.811  number=1583390 hash=810d57…95c8c6
+INFO [08-30|19:16:15] Imported new chain segment               blocks=2   txs=10  mgas=1.551   elapsed=136.481ms mgasps=11.361  number=1583392 hash=25a2a5…86d637
+INFO [08-30|19:16:16] Imported new chain segment               blocks=6   txs=10  mgas=2.824   elapsed=170.483ms mgasps=16.562  number=1583398 hash=5dc7a4…72f4e4
+INFO [08-30|19:16:16] Imported new chain segment               blocks=1   txs=0   mgas=0.000   elapsed=8.121ms   mgasps=0.000   number=1583399 hash=395f83…d068b7
+INFO [08-30|19:16:17] Imported new chain segment               blocks=19  txs=35  mgas=4.121   elapsed=267.162ms mgasps=15.427  number=1583418 hash=56b4ea…6a326a
+INFO [08-30|19:16:36] Imported new chain segment               blocks=1   txs=0   mgas=0.000   elapsed=16.412ms  mgasps=0.000   number=1583419 hash=ac25e9…a71611
+INFO [08-30|19:16:56] Imported new chain segment               blocks=1   txs=2   mgas=2.952   elapsed=16.404ms  mgasps=179.965 number=1583420 hash=06e980…938320
+INFO [08-30|19:17:11] Imported new chain segment               blocks=1   txs=1   mgas=0.022   elapsed=8.088ms   mgasps=2.684   number=1583421 hash=2f9614…e078fe
+INFO [08-30|19:18:08] Got interrupt, shutting down... 
+INFO [08-30|19:18:08] HTTP endpoint closed: http://127.0.0.1:8545 
+INFO [08-30|19:18:08] IPC endpoint closed: /Users/cb_yeti/Library/Ethereum/testnet/geth.ipc 
+INFO [08-30|19:18:08] Blockchain manager stopped 
+INFO [08-30|19:18:08] Stopping Ethereum protocol 
+INFO [08-30|19:18:08] Ethereum protocol stopped 
+INFO [08-30|19:18:08] Transaction pool stopped 
+INFO [08-30|19:18:08] Database closed                          database=/Users/cb_yeti/Library/Ethereum/testnet/geth/chaindata
+INFO [08-30|19:18:26] Starting peer-to-peer node               instance=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.8.3
+INFO [08-30|19:18:26] Allocated cache and file handles         database=/Users/cb_yeti/Library/Ethereum/testnet/geth/chaindata cache=128 handles=1024
+INFO [08-30|19:18:26] Initialised chain configuration          config="{ChainID: 3 Homestead: 0 DAO: <nil> DAOSupport: true EIP150: 0 EIP155: 10 EIP158: 10 Metropolis: 9223372036854775807 Engine: ethash}"
+INFO [08-30|19:18:26] Disk storage enabled for ethash caches   dir=/Users/cb_yeti/Library/Ethereum/testnet/geth/ethash count=3
+INFO [08-30|19:18:26] Disk storage enabled for ethash DAGs     dir=/Users/cb_yeti/.ethash                              count=2
+INFO [08-30|19:18:26] Initialising Ethereum protocol           versions="[63 62]" network=3
+INFO [08-30|19:18:26] Loaded most recent local header          number=1583421 hash=2f9614…e078fe td=1701143156305026
+INFO [08-30|19:18:26] Loaded most recent local full block      number=1583421 hash=2f9614…e078fe td=1701143156305026
+INFO [08-30|19:18:26] Loaded most recent local fast block      number=1583421 hash=2f9614…e078fe td=1701143156305026
+WARN [08-30|19:18:26] Blockchain not empty, fast sync disabled 
+INFO [08-30|19:18:26] Starting P2P networking 
+INFO [08-30|19:18:29] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-30|19:18:29] UDP listener up                          self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-30|19:18:29] RLPx listener up                         self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-30|19:18:29] IPC endpoint opened: /Users/cb_yeti/Library/Ethereum/testnet/geth.ipc 
+INFO [08-30|19:18:29] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-30|19:18:39] Block synchronisation started 
+INFO [08-30|19:18:39] Imported new chain segment               blocks=2 txs=5 mgas=1.628 elapsed=127.939ms mgasps=12.725 number=1583423 hash=5c848e…1fe8ff
+INFO [08-30|19:18:39] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=22.685ms  mgasps=0.926  number=1583424 hash=d16a33…86b40c
+INFO [08-30|19:18:40] Updated mining threads                   threads=1
+INFO [08-30|19:18:40] Transaction pool price threshold updated price=18000000000
+INFO [08-30|19:18:40] Starting mining operation 
+INFO [08-30|19:18:40] Commit new mining work                   number=1583425 txs=0 uncles=0 elapsed=1.852ms
+INFO [08-30|19:18:44] Generating DAG in progress               epoch=52 percentage=0 elapsed=2.749s
+INFO [08-30|19:18:47] Generating DAG in progress               epoch=52 percentage=1 elapsed=5.488s
+INFO [08-30|19:18:48] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.102ms   mgasps=0.000  number=1583425 hash=c156dc…6fe71d
+INFO [08-30|19:18:48] Commit new mining work                   number=1583426 txs=1 uncles=0 elapsed=8.762ms
+INFO [08-30|19:18:50] Generating DAG in progress               epoch=52 percentage=2 elapsed=8.254s
+INFO [08-30|19:18:50] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=9.408ms   mgasps=2.232  number=1583426 hash=22dcf1…ad1118
+INFO [08-30|19:18:50] Commit new mining work                   number=1583427 txs=0 uncles=0 elapsed=943.792µs
+INFO [08-30|19:18:53] Generating DAG in progress               epoch=52 percentage=3 elapsed=11.107s
+INFO [08-30|19:18:56] Generating DAG in progress               epoch=52 percentage=4 elapsed=14.054s
+INFO [08-30|19:18:59] Generating DAG in progress               epoch=52 percentage=5 elapsed=17.158s
+INFO [08-30|19:19:02] Generating DAG in progress               epoch=52 percentage=6 elapsed=20.053s
+INFO [08-30|19:19:05] Generating DAG in progress               epoch=52 percentage=7 elapsed=23.715s
+INFO [08-30|19:19:08] Generating DAG in progress               epoch=52 percentage=8 elapsed=26.709s
+INFO [08-30|19:19:11] Generating DAG in progress               epoch=52 percentage=9 elapsed=29.459s
+INFO [08-30|19:19:11] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=22.358ms  mgasps=0.939  number=1583427 hash=f20ee4…f0d49d
+INFO [08-30|19:19:11] Commit new mining work                   number=1583428 txs=2 uncles=0 elapsed=9.696ms
+INFO [08-30|19:19:14] Generating DAG in progress               epoch=52 percentage=10 elapsed=32.222s
+INFO [08-30|19:19:17] Generating DAG in progress               epoch=52 percentage=11 elapsed=35.067s
+INFO [08-30|19:19:20] Generating DAG in progress               epoch=52 percentage=12 elapsed=38.722s
+INFO [08-30|19:19:23] Imported new chain segment               blocks=1 txs=1 mgas=0.022 elapsed=12.600ms  mgasps=1.723  number=1583428 hash=32374b…6ad5da
+INFO [08-30|19:19:23] Commit new mining work                   number=1583429 txs=1 uncles=0 elapsed=1.427ms
+INFO [08-30|19:19:24] Generating DAG in progress               epoch=52 percentage=13 elapsed=42.189s
+INFO [08-30|19:19:27] Generating DAG in progress               epoch=52 percentage=14 elapsed=45.374s
+INFO [08-30|19:19:28] Imported new chain segment               blocks=1 txs=1 mgas=0.052 elapsed=12.541ms  mgasps=4.113  number=1583429 hash=e79c15…4cab23
+INFO [08-30|19:19:28] Commit new mining work                   number=1583430 txs=1 uncles=0 elapsed=47.197ms
+INFO [08-30|19:19:30] Generating DAG in progress               epoch=52 percentage=15 elapsed=48.723s
+INFO [08-30|19:19:34] Generating DAG in progress               epoch=52 percentage=16 elapsed=52.300s
+INFO [08-30|19:19:37] Generating DAG in progress               epoch=52 percentage=17 elapsed=55.455s
+INFO [08-30|19:19:40] Generating DAG in progress               epoch=52 percentage=18 elapsed=58.456s
+INFO [08-30|19:19:43] Generating DAG in progress               epoch=52 percentage=19 elapsed=1m1.754s
+INFO [08-30|19:19:47] Generating DAG in progress               epoch=52 percentage=20 elapsed=1m4.863s
+INFO [08-30|19:19:50] Generating DAG in progress               epoch=52 percentage=21 elapsed=1m8.436s
+INFO [08-30|19:19:50] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=37.417ms  mgasps=0.000  number=1583430 hash=6b0f24…f5e201
+INFO [08-30|19:19:51] Commit new mining work                   number=1583431 txs=6 uncles=0 elapsed=715.054ms
+INFO [08-30|19:19:54] Generating DAG in progress               epoch=52 percentage=22 elapsed=1m12.407s
+INFO [08-30|19:19:58] Generating DAG in progress               epoch=52 percentage=23 elapsed=1m15.935s
+INFO [08-30|19:20:01] Generating DAG in progress               epoch=52 percentage=24 elapsed=1m19.482s
+INFO [08-30|19:20:05] Generating DAG in progress               epoch=52 percentage=25 elapsed=1m22.918s
+INFO [08-30|19:20:08] Generating DAG in progress               epoch=52 percentage=26 elapsed=1m26.110s
+INFO [08-30|19:20:08] Imported new chain segment               blocks=1 txs=6 mgas=4.232 elapsed=162.244ms mgasps=26.083 number=1583431 hash=15a421…094c74
+INFO [08-30|19:20:08] Commit new mining work                   number=1583432 txs=3 uncles=0 elapsed=27.128ms
+INFO [08-30|19:20:11] Generating DAG in progress               epoch=52 percentage=27 elapsed=1m29.766s
+INFO [08-30|19:20:15] Generating DAG in progress               epoch=52 percentage=28 elapsed=1m32.919s
+INFO [08-30|19:20:17] Imported new chain segment               blocks=1 txs=2 mgas=0.071 elapsed=12.468ms  mgasps=5.704  number=1583432 hash=67edd5…7d815c
+INFO [08-30|19:20:17] Commit new mining work                   number=1583433 txs=2 uncles=0 elapsed=180.403ms
+INFO [08-30|19:20:18] Generating DAG in progress               epoch=52 percentage=29 elapsed=1m36.230s
+INFO [08-30|19:20:21] Generating DAG in progress               epoch=52 percentage=30 elapsed=1m39.587s
+INFO [08-30|19:20:25] Generating DAG in progress               epoch=52 percentage=31 elapsed=1m43.012s
+INFO [08-30|19:20:26] Imported new chain segment               blocks=1 txs=2 mgas=0.146 elapsed=27.288ms  mgasps=5.347  number=1583433 hash=29b45c…a9fedf
+INFO [08-30|19:20:26] Commit new mining work                   number=1583434 txs=2 uncles=0 elapsed=1.449ms
+INFO [08-30|19:20:29] Imported new chain segment               blocks=1 txs=2 mgas=0.071 elapsed=23.063ms  mgasps=3.084  number=1583432 hash=1bcc49…9e92e6
+INFO [08-30|19:20:29] Imported new chain segment               blocks=1 txs=3 mgas=0.069 elapsed=230.387ms mgasps=0.298  number=1583434 hash=751967…f66475
+INFO [08-30|19:20:29] Commit new mining work                   number=1583435 txs=0 uncles=1 elapsed=1.106ms
+INFO [08-30|19:20:30] Generating DAG in progress               epoch=52 percentage=32 elapsed=1m48.237s
+INFO [08-30|19:20:36] Generating DAG in progress               epoch=52 percentage=33 elapsed=1m53.963s
+INFO [08-30|19:20:38] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.450ms  mgasps=0.000  number=1583435 hash=5c1e4d…d6f276
+INFO [08-30|19:20:38] Commit new mining work                   number=1583436 txs=1 uncles=1 elapsed=21.927ms
+INFO [08-30|19:20:39] Generating DAG in progress               epoch=52 percentage=34 elapsed=1m57.381s
+INFO [08-30|19:20:45] Generating DAG in progress               epoch=52 percentage=35 elapsed=2m3.033s
+INFO [08-30|19:20:48] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=43.387ms  mgasps=0.484  number=1583436 hash=8caff2…0146c3
+INFO [08-30|19:20:49] Commit new mining work                   number=1583437 txs=1 uncles=0 elapsed=225.666ms
+INFO [08-30|19:20:49] Generating DAG in progress               epoch=52 percentage=36 elapsed=2m7.334s
+INFO [08-30|19:20:50] Imported new chain segment               blocks=1 txs=1 mgas=3.697 elapsed=39.031ms  mgasps=94.715 number=1583437 hash=d731d9…af3b62
+INFO [08-30|19:20:50] Commit new mining work                   number=1583438 txs=1 uncles=0 elapsed=27.990ms
+INFO [08-30|19:20:52] Generating DAG in progress               epoch=52 percentage=37 elapsed=2m10.644s
+INFO [08-30|19:20:54] Imported new chain segment               blocks=1 txs=2 mgas=4.331 elapsed=40.311ms  mgasps=107.442 number=1583438 hash=6399cd…883192
+INFO [08-30|19:20:54] Commit new mining work                   number=1583439 txs=0 uncles=0 elapsed=519.236µs
+INFO [08-30|19:20:55] Generating DAG in progress               epoch=52 percentage=38 elapsed=2m13.709s
+INFO [08-30|19:21:00] Generating DAG in progress               epoch=52 percentage=39 elapsed=2m18.018s
+INFO [08-30|19:21:04] Generating DAG in progress               epoch=52 percentage=40 elapsed=2m21.922s
+INFO [08-30|19:21:07] Generating DAG in progress               epoch=52 percentage=41 elapsed=2m25.256s
+INFO [08-30|19:21:11] Generating DAG in progress               epoch=52 percentage=42 elapsed=2m29.077s
+INFO [08-30|19:21:14] Generating DAG in progress               epoch=52 percentage=43 elapsed=2m32.660s
+INFO [08-30|19:21:18] Generating DAG in progress               epoch=52 percentage=44 elapsed=2m36.386s
+INFO [08-30|19:21:22] Generating DAG in progress               epoch=52 percentage=45 elapsed=2m39.821s
+INFO [08-30|19:21:25] Generating DAG in progress               epoch=52 percentage=46 elapsed=2m43.315s
+INFO [08-30|19:21:26] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.395ms   mgasps=0.000   number=1583439 hash=528116…f7c7f9
+INFO [08-30|19:21:28] Commit new mining work                   number=1583440 txs=6 uncles=0 elapsed=1.575s
+INFO [08-30|19:21:28] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=31.061ms  mgasps=0.000   number=1583439 hash=5132db…d56f13
+INFO [08-30|19:21:29] Generating DAG in progress               epoch=52 percentage=47 elapsed=2m47.576s
+INFO [08-30|19:21:32] Commit new mining work                   number=1583440 txs=6 uncles=1 elapsed=3.967s
+INFO [08-30|19:21:33] Generating DAG in progress               epoch=52 percentage=48 elapsed=2m51.595s
+INFO [08-30|19:21:38] Generating DAG in progress               epoch=52 percentage=49 elapsed=2m56.340s
+INFO [08-30|19:21:43] Generating DAG in progress               epoch=52 percentage=50 elapsed=3m1.382s
+INFO [08-30|19:21:48] Generating DAG in progress               epoch=52 percentage=51 elapsed=3m6.269s
+INFO [08-30|19:21:52] Imported new chain segment               blocks=1 txs=6 mgas=0.761 elapsed=241.921ms mgasps=3.144   number=1583440 hash=8de6a4…0b3612
+INFO [08-30|19:21:52] Commit new mining work                   number=1583441 txs=4 uncles=1 elapsed=204.838ms
+INFO [08-30|19:21:53] Generating DAG in progress               epoch=52 percentage=52 elapsed=3m10.987s
+INFO [08-30|19:21:56] Imported new chain segment               blocks=1 txs=4 mgas=0.740 elapsed=80.337ms  mgasps=9.206   number=1583441 hash=2e607d…71011e
+INFO [08-30|19:21:56] Commit new mining work                   number=1583442 txs=0 uncles=0 elapsed=3.394ms
+INFO [08-30|19:21:57] Generating DAG in progress               epoch=52 percentage=53 elapsed=3m15.176s
+INFO [08-30|19:21:59] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.525ms  mgasps=0.000   number=1583442 hash=4db500…9df469
+INFO [08-30|19:21:59] Commit new mining work                   number=1583443 txs=0 uncles=0 elapsed=450.869µs
+INFO [08-30|19:21:59] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.331ms   mgasps=0.000   number=1583442 hash=c8aabb…8cb3d8
+INFO [08-30|19:22:01] Generating DAG in progress               epoch=52 percentage=54 elapsed=3m19.051s
+INFO [08-30|19:22:05] Generating DAG in progress               epoch=52 percentage=55 elapsed=3m22.831s
+INFO [08-30|19:22:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=17.905ms  mgasps=0.000   number=1583443 hash=d4bd27…91e370
+INFO [08-30|19:22:06] Commit new mining work                   number=1583444 txs=1 uncles=0 elapsed=27.989ms
+INFO [08-30|19:22:09] Generating DAG in progress               epoch=52 percentage=56 elapsed=3m26.993s
+INFO [08-30|19:22:13] Imported new chain segment               blocks=1 txs=1 mgas=0.164 elapsed=23.617ms  mgasps=6.925   number=1583444 hash=6895a5…535be1
+INFO [08-30|19:22:13] Commit new mining work                   number=1583445 txs=0 uncles=0 elapsed=160.160ms
+INFO [08-30|19:22:13] Generating DAG in progress               epoch=52 percentage=57 elapsed=3m31.466s
+INFO [08-30|19:22:16] Generating DAG in progress               epoch=52 percentage=58 elapsed=3m34.490s
+INFO [08-30|19:22:20] Generating DAG in progress               epoch=52 percentage=59 elapsed=3m38.296s
+INFO [08-30|19:22:24] Generating DAG in progress               epoch=52 percentage=60 elapsed=3m42.443s
+INFO [08-30|19:22:29] Generating DAG in progress               epoch=52 percentage=61 elapsed=3m46.895s
+INFO [08-30|19:22:34] Generating DAG in progress               epoch=52 percentage=62 elapsed=3m51.937s
+INFO [08-30|19:22:39] Generating DAG in progress               epoch=52 percentage=63 elapsed=3m57.229s
+INFO [08-30|19:22:43] Generating DAG in progress               epoch=52 percentage=64 elapsed=4m1.782s
+INFO [08-30|19:22:51] Generating DAG in progress               epoch=52 percentage=65 elapsed=4m8.880s
+INFO [08-30|19:22:53] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=22.467ms  mgasps=0.000   number=1583445 hash=928011…401b09
+INFO [08-30|19:22:54] Commit new mining work                   number=1583446 txs=3 uncles=0 elapsed=456.100ms
+INFO [08-30|19:22:56] Generating DAG in progress               epoch=52 percentage=66 elapsed=4m14.122s
+INFO [08-30|19:23:00] Generating DAG in progress               epoch=52 percentage=67 elapsed=4m18.475s
+INFO [08-30|19:23:03] Imported new chain segment               blocks=1 txs=3 mgas=3.051 elapsed=103.919ms mgasps=29.358  number=1583446 hash=f602a2…475af4
+INFO [08-30|19:23:03] Commit new mining work                   number=1583447 txs=2 uncles=0 elapsed=120.706ms
+INFO [08-30|19:23:05] Generating DAG in progress               epoch=52 percentage=68 elapsed=4m23.005s
+INFO [08-30|19:23:08] Generating DAG in progress               epoch=52 percentage=69 elapsed=4m26.792s
+INFO [08-30|19:23:11] Imported new chain segment               blocks=1 txs=2 mgas=1.371 elapsed=59.279ms  mgasps=23.121  number=1583447 hash=51d6bd…9bfef1
+INFO [08-30|19:23:11] Commit new mining work                   number=1583448 txs=2 uncles=0 elapsed=85.605ms
+INFO [08-30|19:23:12] Generating DAG in progress               epoch=52 percentage=70 elapsed=4m30.746s
+INFO [08-30|19:23:17] Generating DAG in progress               epoch=52 percentage=71 elapsed=4m34.906s
+INFO [08-30|19:23:17] Imported new chain segment               blocks=1 txs=2 mgas=2.986 elapsed=37.008ms  mgasps=80.672  number=1583448 hash=1da7e6…25a7e7
+INFO [08-30|19:23:17] Commit new mining work                   number=1583449 txs=1 uncles=0 elapsed=4.461ms
+INFO [08-30|19:23:20] Generating DAG in progress               epoch=52 percentage=72 elapsed=4m38.704s
+INFO [08-30|19:23:25] Generating DAG in progress               epoch=52 percentage=73 elapsed=4m43.061s
+INFO [08-30|19:23:29] Generating DAG in progress               epoch=52 percentage=74 elapsed=4m47.100s
+INFO [08-30|19:23:32] Generating DAG in progress               epoch=52 percentage=75 elapsed=4m50.576s
+INFO [08-30|19:23:36] Generating DAG in progress               epoch=52 percentage=76 elapsed=4m54.091s
+INFO [08-30|19:23:40] Generating DAG in progress               epoch=52 percentage=77 elapsed=4m58.088s
+INFO [08-30|19:23:44] Generating DAG in progress               epoch=52 percentage=78 elapsed=5m1.872s
+INFO [08-30|19:23:47] Generating DAG in progress               epoch=52 percentage=79 elapsed=5m5.778s
+INFO [08-30|19:23:51] Generating DAG in progress               epoch=52 percentage=80 elapsed=5m9.111s
+INFO [08-30|19:23:54] Generating DAG in progress               epoch=52 percentage=81 elapsed=5m12.269s
+INFO [08-30|19:23:54] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=48.823ms  mgasps=77.250  number=1583449 hash=fb3154…d07e6e
+INFO [08-30|19:23:54] Commit new mining work                   number=1583450 txs=5 uncles=0 elapsed=263.563ms
+INFO [08-30|19:23:58] Generating DAG in progress               epoch=52 percentage=82 elapsed=5m16.553s
+INFO [08-30|19:24:02] Generating DAG in progress               epoch=52 percentage=83 elapsed=5m20.540s
+INFO [08-30|19:24:03] Imported new chain segment               blocks=1 txs=5 mgas=0.542 elapsed=31.428ms  mgasps=17.232  number=1583450 hash=670169…447f4f
+INFO [08-30|19:24:03] Commit new mining work                   number=1583451 txs=1 uncles=0 elapsed=27.028ms
+INFO [08-30|19:24:06] Generating DAG in progress               epoch=52 percentage=84 elapsed=5m24.326s
+INFO [08-30|19:24:10] Generating DAG in progress               epoch=52 percentage=85 elapsed=5m28.564s
+INFO [08-30|19:24:14] Generating DAG in progress               epoch=52 percentage=86 elapsed=5m32.263s
+INFO [08-30|19:24:18] Generating DAG in progress               epoch=52 percentage=87 elapsed=5m36.671s
+INFO [08-30|19:24:22] Generating DAG in progress               epoch=52 percentage=88 elapsed=5m40.664s
+INFO [08-30|19:24:24] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=261.072ms mgasps=14.447  number=1583451 hash=b2b7b2…62953e
+INFO [08-30|19:24:24] Commit new mining work                   number=1583452 txs=1 uncles=0 elapsed=20.007ms
+INFO [08-30|19:24:28] Generating DAG in progress               epoch=52 percentage=89 elapsed=5m45.824s
+INFO [08-30|19:24:29] Imported new chain segment               blocks=1 txs=1 mgas=0.187 elapsed=437.008ms mgasps=0.428   number=1583452 hash=f6b03a…28c7ba
+INFO [08-30|19:24:30] Commit new mining work                   number=1583453 txs=0 uncles=0 elapsed=12.451ms
+INFO [08-30|19:24:32] Generating DAG in progress               epoch=52 percentage=90 elapsed=5m50.342s
+INFO [08-30|19:24:36] Generating DAG in progress               epoch=52 percentage=91 elapsed=5m54.697s
+INFO [08-30|19:24:41] Generating DAG in progress               epoch=52 percentage=92 elapsed=5m59.118s
+INFO [08-30|19:24:46] Generating DAG in progress               epoch=52 percentage=93 elapsed=6m3.862s
+INFO [08-30|19:24:50] Generating DAG in progress               epoch=52 percentage=94 elapsed=6m8.467s
+INFO [08-30|19:24:50] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=76.550ms  mgasps=49.270  number=1583453 hash=5d5b4b…6fe980
+INFO [08-30|19:24:50] Commit new mining work                   number=1583454 txs=1 uncles=0 elapsed=57.727ms
+INFO [08-30|19:24:54] Generating DAG in progress               epoch=52 percentage=95 elapsed=6m12.268s
+INFO [08-30|19:24:58] Generating DAG in progress               epoch=52 percentage=96 elapsed=6m16.648s
+INFO [08-30|19:24:58] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=195.040ms mgasps=0.676   number=1583454 hash=8b92b3…082026
+INFO [08-30|19:24:58] Commit new mining work                   number=1583455 txs=0 uncles=0 elapsed=13.916ms
+INFO [08-30|19:25:04] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=82.887ms  mgasps=45.503  number=1583455 hash=126521…944581
+INFO [08-30|19:25:04] Generating DAG in progress               epoch=52 percentage=97 elapsed=6m21.866s
+INFO [08-30|19:25:04] Commit new mining work                   number=1583456 txs=0 uncles=0 elapsed=10.788ms
+INFO [08-30|19:25:09] Generating DAG in progress               epoch=52 percentage=98 elapsed=6m27.210s
+INFO [08-30|19:25:14] Generating DAG in progress               epoch=52 percentage=99 elapsed=6m31.871s
+INFO [08-30|19:25:14] Generated ethash verification cache      epoch=52 elapsed=6m31.876s
+INFO [08-30|19:25:23] Generating DAG in progress               epoch=53 percentage=0  elapsed=5.514s
+INFO [08-30|19:25:26] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=32.550ms  mgasps=115.871 number=1583456 hash=e15646…3eaec8
+INFO [08-30|19:25:27] Commit new mining work                   number=1583457 txs=1 uncles=0 elapsed=38.171ms
+INFO [08-30|19:25:28] Generating DAG in progress               epoch=53 percentage=1  elapsed=10.571s
+INFO [08-30|19:25:34] Generating DAG in progress               epoch=53 percentage=2  elapsed=15.805s
+INFO [08-30|19:25:41] Generating DAG in progress               epoch=53 percentage=3  elapsed=23.190s
+INFO [08-30|19:25:47] Generating DAG in progress               epoch=53 percentage=4  elapsed=29.045s
+INFO [08-30|19:25:53] Generating DAG in progress               epoch=53 percentage=5  elapsed=34.821s
+INFO [08-30|19:25:57] Generating DAG in progress               epoch=53 percentage=6  elapsed=39.014s
+INFO [08-30|19:26:01] Generating DAG in progress               epoch=53 percentage=7  elapsed=42.807s
+INFO [08-30|19:26:05] Generating DAG in progress               epoch=53 percentage=8  elapsed=47.628s
+INFO [08-30|19:26:10] Generating DAG in progress               epoch=53 percentage=9  elapsed=52.163s
+INFO [08-30|19:26:11] Imported new chain segment               blocks=1 txs=2 mgas=0.131 elapsed=35.464ms  mgasps=3.701   number=1583457 hash=e41937…0feae3
+INFO [08-30|19:26:12] Commit new mining work                   number=1583458 txs=5 uncles=0 elapsed=122.453ms
+INFO [08-30|19:26:14] Generating DAG in progress               epoch=53 percentage=10 elapsed=56.256s
+INFO [08-30|19:26:18] Generating DAG in progress               epoch=53 percentage=11 elapsed=1m0.291s
+INFO [08-30|19:26:22] Generating DAG in progress               epoch=53 percentage=12 elapsed=1m4.422s
+INFO [08-30|19:26:27] Generating DAG in progress               epoch=53 percentage=13 elapsed=1m9.267s
+INFO [08-30|19:26:31] Generating DAG in progress               epoch=53 percentage=14 elapsed=1m13.643s
+INFO [08-30|19:26:36] Generating DAG in progress               epoch=53 percentage=15 elapsed=1m17.698s
+INFO [08-30|19:26:39] Generating DAG in progress               epoch=53 percentage=16 elapsed=1m21.453s
+INFO [08-30|19:26:44] Generating DAG in progress               epoch=53 percentage=17 elapsed=1m26.138s
+INFO [08-30|19:26:45] Imported new chain segment               blocks=1 txs=6 mgas=4.032 elapsed=188.123ms mgasps=21.431  number=1583458 hash=5b2669…107bfe
+INFO [08-30|19:26:45] Commit new mining work                   number=1583459 txs=2 uncles=0 elapsed=75.152ms
+INFO [08-30|19:26:48] Generating DAG in progress               epoch=53 percentage=18 elapsed=1m30.193s
+INFO [08-30|19:26:50] Imported new chain segment               blocks=1 txs=2 mgas=0.230 elapsed=78.924ms  mgasps=2.919   number=1583459 hash=4cad63…2b9f1a
+INFO [08-30|19:26:50] Commit new mining work                   number=1583460 txs=1 uncles=0 elapsed=8.521ms
+INFO [08-30|19:26:52] Generating DAG in progress               epoch=53 percentage=19 elapsed=1m33.983s
+INFO [08-30|19:26:56] Generating DAG in progress               epoch=53 percentage=20 elapsed=1m37.973s
+INFO [08-30|19:27:00] Generating DAG in progress               epoch=53 percentage=21 elapsed=1m41.842s
+INFO [08-30|19:27:03] Generating DAG in progress               epoch=53 percentage=22 elapsed=1m45.344s
+INFO [08-30|19:27:05] Imported new chain segment               blocks=1 txs=2 mgas=1.599 elapsed=135.434ms mgasps=11.804  number=1583460 hash=ce654c…4f7292
+INFO [08-30|19:27:05] Commit new mining work                   number=1583461 txs=0 uncles=0 elapsed=1.946ms
+INFO [08-30|19:27:07] Generating DAG in progress               epoch=53 percentage=23 elapsed=1m49.290s
+INFO [08-30|19:27:11] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.459ms  mgasps=0.000   number=1583461 hash=03a92b…8d985f
+INFO [08-30|19:27:11] Commit new mining work                   number=1583462 txs=0 uncles=0 elapsed=1.118ms
+INFO [08-30|19:27:11] Generating DAG in progress               epoch=53 percentage=24 elapsed=1m53.028s
+INFO [08-30|19:27:15] Generating DAG in progress               epoch=53 percentage=25 elapsed=1m57.135s
+INFO [08-30|19:27:19] Generating DAG in progress               epoch=53 percentage=26 elapsed=2m1.432s
+INFO [08-30|19:27:23] Generating DAG in progress               epoch=53 percentage=27 elapsed=2m5.127s
+INFO [08-30|19:27:27] Generating DAG in progress               epoch=53 percentage=28 elapsed=2m8.894s
+INFO [08-30|19:27:28] Imported new chain segment               blocks=1 txs=1 mgas=0.099 elapsed=254.938ms mgasps=0.387   number=1583462 hash=4bfe3a…525929
+INFO [08-30|19:27:28] Commit new mining work                   number=1583463 txs=0 uncles=0 elapsed=9.390ms
+INFO [08-30|19:27:30] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=50.566ms  mgasps=0.000   number=1583463 hash=c2cfba…06cf31
+INFO [08-30|19:27:30] Commit new mining work                   number=1583464 txs=0 uncles=0 elapsed=442.829µs
+INFO [08-30|19:27:31] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=23.406ms  mgasps=0.000   number=1583463 hash=349b2e…28d688
+INFO [08-30|19:27:32] Generating DAG in progress               epoch=53 percentage=29 elapsed=2m14.576s
+INFO [08-30|19:27:36] Generating DAG in progress               epoch=53 percentage=30 elapsed=2m18.199s
+INFO [08-30|19:27:40] Generating DAG in progress               epoch=53 percentage=31 elapsed=2m22.648s
+INFO [08-30|19:27:44] Generating DAG in progress               epoch=53 percentage=32 elapsed=2m26.596s
+INFO [08-30|19:27:49] Generating DAG in progress               epoch=53 percentage=33 elapsed=2m30.980s
+INFO [08-30|19:27:52] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=36.701ms  mgasps=0.000   number=1583464 hash=5d743e…96a067
+INFO [08-30|19:27:52] Commit new mining work                   number=1583465 txs=2 uncles=1 elapsed=222.349ms
+INFO [08-30|19:27:54] Generating DAG in progress               epoch=53 percentage=34 elapsed=2m36.106s
+INFO [08-30|19:27:58] Generating DAG in progress               epoch=53 percentage=35 elapsed=2m40.414s
+INFO [08-30|19:28:02] Generating DAG in progress               epoch=53 percentage=36 elapsed=2m44.306s
+INFO [08-30|19:28:06] Generating DAG in progress               epoch=53 percentage=37 elapsed=2m47.870s
+INFO [08-30|19:28:10] Imported new chain segment               blocks=1 txs=2 mgas=1.762 elapsed=226.181ms mgasps=7.790   number=1583465 hash=c2aea0…48a5b6
+INFO [08-30|19:28:10] Commit new mining work                   number=1583466 txs=1 uncles=0 elapsed=58.537ms
+INFO [08-30|19:28:10] Generating DAG in progress               epoch=53 percentage=38 elapsed=2m52.240s
+INFO [08-30|19:28:14] Generating DAG in progress               epoch=53 percentage=39 elapsed=2m56.271s
+INFO [08-30|19:28:19] Generating DAG in progress               epoch=53 percentage=40 elapsed=3m1.143s
+INFO [08-30|19:28:24] Generating DAG in progress               epoch=53 percentage=41 elapsed=3m6.112s
+INFO [08-30|19:28:28] Generating DAG in progress               epoch=53 percentage=42 elapsed=3m10.550s
+INFO [08-30|19:28:33] Generating DAG in progress               epoch=53 percentage=43 elapsed=3m15.413s
+INFO [08-30|19:28:38] Generating DAG in progress               epoch=53 percentage=44 elapsed=3m20.006s
+INFO [08-30|19:28:43] Generating DAG in progress               epoch=53 percentage=45 elapsed=3m25.549s
+INFO [08-30|19:28:48] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=149.698ms mgasps=0.880   number=1583466 hash=0544ed…81c94e
+INFO [08-30|19:28:48] Commit new mining work                   number=1583467 txs=3 uncles=0 elapsed=199.480ms
+INFO [08-30|19:28:49] Generating DAG in progress               epoch=53 percentage=46 elapsed=3m31.668s
+INFO [08-30|19:28:53] Generating DAG in progress               epoch=53 percentage=47 elapsed=3m35.330s
+INFO [08-30|19:28:57] Generating DAG in progress               epoch=53 percentage=48 elapsed=3m39.010s
+INFO [08-30|19:29:01] Generating DAG in progress               epoch=53 percentage=49 elapsed=3m42.792s
+INFO [08-30|19:29:05] Generating DAG in progress               epoch=53 percentage=50 elapsed=3m47.456s
+INFO [08-30|19:29:12] Generating DAG in progress               epoch=53 percentage=51 elapsed=3m53.895s
+INFO [08-30|19:29:14] Imported new chain segment               blocks=1 txs=3 mgas=0.287 elapsed=251.396ms mgasps=1.143   number=1583467 hash=9f44b5…3797bd
+INFO [08-30|19:29:14] Commit new mining work                   number=1583468 txs=0 uncles=0 elapsed=3.616ms
+INFO [08-30|19:29:17] Generating DAG in progress               epoch=53 percentage=52 elapsed=3m59.250s
+INFO [08-30|19:29:20] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=19.022ms  mgasps=0.000   number=1583468 hash=0b9e09…d15658
+INFO [08-30|19:29:20] Commit new mining work                   number=1583469 txs=0 uncles=0 elapsed=1.930ms
+INFO [08-30|19:29:22] Generating DAG in progress               epoch=53 percentage=53 elapsed=4m4.004s
+INFO [08-30|19:29:26] Generating DAG in progress               epoch=53 percentage=54 elapsed=4m7.695s
+INFO [08-30|19:29:29] Generating DAG in progress               epoch=53 percentage=55 elapsed=4m11.306s
+INFO [08-30|19:29:33] Generating DAG in progress               epoch=53 percentage=56 elapsed=4m15.570s
+INFO [08-30|19:29:39] Generating DAG in progress               epoch=53 percentage=57 elapsed=4m21.172s
+INFO [08-30|19:29:42] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.841ms   mgasps=0.000   number=1583469 hash=8dc9e2…968027
+INFO [08-30|19:29:42] Commit new mining work                   number=1583470 txs=2 uncles=0 elapsed=25.204ms
+INFO [08-30|19:29:45] Generating DAG in progress               epoch=53 percentage=58 elapsed=4m27.492s
+INFO [08-30|19:29:50] Imported new chain segment               blocks=1 txs=2 mgas=0.210 elapsed=98.150ms  mgasps=2.136   number=1583470 hash=e8d80b…d644f4
+INFO [08-30|19:29:50] Commit new mining work                   number=1583471 txs=0 uncles=0 elapsed=3.719ms
+INFO [08-30|19:29:52] Generating DAG in progress               epoch=53 percentage=59 elapsed=4m34.237s
+INFO [08-30|19:29:58] Generating DAG in progress               epoch=53 percentage=60 elapsed=4m40.362s
+INFO [08-30|19:30:04] Generating DAG in progress               epoch=53 percentage=61 elapsed=4m46.568s
+INFO [08-30|19:30:09] Generating DAG in progress               epoch=53 percentage=62 elapsed=4m51.338s
+INFO [08-30|19:30:14] Generating DAG in progress               epoch=53 percentage=63 elapsed=4m56.254s
+INFO [08-30|19:30:20] Generating DAG in progress               epoch=53 percentage=64 elapsed=5m2.193s
+INFO [08-30|19:30:26] Generating DAG in progress               epoch=53 percentage=65 elapsed=5m8.081s
+INFO [08-30|19:30:31] Generating DAG in progress               epoch=53 percentage=66 elapsed=5m13.427s
+INFO [08-30|19:30:36] Generating DAG in progress               epoch=53 percentage=67 elapsed=5m18.126s
+INFO [08-30|19:30:41] Generating DAG in progress               epoch=53 percentage=68 elapsed=5m23.308s
+INFO [08-30|19:30:47] Generating DAG in progress               epoch=53 percentage=69 elapsed=5m28.856s
+INFO [08-30|19:30:54] Generating DAG in progress               epoch=53 percentage=70 elapsed=5m35.777s
+INFO [08-30|19:30:59] Generating DAG in progress               epoch=53 percentage=71 elapsed=5m41.302s
+INFO [08-30|19:31:05] Generating DAG in progress               epoch=53 percentage=72 elapsed=5m47.643s
+INFO [08-30|19:31:11] Generating DAG in progress               epoch=53 percentage=73 elapsed=5m53.007s
+INFO [08-30|19:31:16] Generating DAG in progress               epoch=53 percentage=74 elapsed=5m58.075s
+INFO [08-30|19:31:20] Generating DAG in progress               epoch=53 percentage=75 elapsed=6m2.150s
+INFO [08-30|19:31:24] Generating DAG in progress               epoch=53 percentage=76 elapsed=6m6.643s
+INFO [08-30|19:31:25] Imported new chain segment               blocks=1 txs=1 mgas=0.189 elapsed=67.482ms  mgasps=2.795   number=1583471 hash=22fd24…8e69ca
+INFO [08-30|19:31:26] Commit new mining work                   number=1583472 txs=8 uncles=0 elapsed=370.284ms
+INFO [08-30|19:31:30] Generating DAG in progress               epoch=53 percentage=77 elapsed=6m11.809s
+INFO [08-30|19:31:35] Generating DAG in progress               epoch=53 percentage=78 elapsed=6m17.086s
+INFO [08-30|19:31:40] Generating DAG in progress               epoch=53 percentage=79 elapsed=6m21.947s
+INFO [08-30|19:31:44] Generating DAG in progress               epoch=53 percentage=80 elapsed=6m25.855s
+INFO [08-30|19:31:48] Generating DAG in progress               epoch=53 percentage=81 elapsed=6m29.944s
+INFO [08-30|19:31:52] Imported new chain segment               blocks=1 txs=8 mgas=1.856 elapsed=415.945ms mgasps=4.463   number=1583472 hash=291137…721db8
+INFO [08-30|19:31:52] Commit new mining work                   number=1583473 txs=1 uncles=0 elapsed=25.426ms
+INFO [08-30|19:31:53] Generating DAG in progress               epoch=53 percentage=82 elapsed=6m34.889s
+INFO [08-30|19:31:57] Generating DAG in progress               epoch=53 percentage=83 elapsed=6m38.810s
+INFO [08-30|19:32:01] Generating DAG in progress               epoch=53 percentage=84 elapsed=6m43.001s
+INFO [08-30|19:32:05] Generating DAG in progress               epoch=53 percentage=85 elapsed=6m46.872s
+INFO [08-30|19:32:09] Generating DAG in progress               epoch=53 percentage=86 elapsed=6m50.957s
+INFO [08-30|19:32:12] Imported new chain segment               blocks=1 txs=1 mgas=0.189 elapsed=13.308ms  mgasps=14.173  number=1583473 hash=ae91df…52659d
+INFO [08-30|19:32:12] Commit new mining work                   number=1583474 txs=1 uncles=0 elapsed=41.408ms
+INFO [08-30|19:32:12] Imported new chain segment               blocks=1 txs=1 mgas=0.189 elapsed=28.195ms  mgasps=6.690   number=1583473 hash=304a76…867ab7
+INFO [08-30|19:32:12] Commit new mining work                   number=1583474 txs=1 uncles=1 elapsed=8.054ms
+INFO [08-30|19:32:13] Generating DAG in progress               epoch=53 percentage=87 elapsed=6m55.014s
+INFO [08-30|19:32:17] Generating DAG in progress               epoch=53 percentage=88 elapsed=6m58.919s
+INFO [08-30|19:32:20] Generating DAG in progress               epoch=53 percentage=89 elapsed=7m2.600s
+INFO [08-30|19:32:22] Imported new chain segment               blocks=1 txs=1 mgas=0.268 elapsed=154.819ms mgasps=1.731   number=1583474 hash=f358d6…f996bc
+INFO [08-30|19:32:22] Commit new mining work                   number=1583475 txs=0 uncles=0 elapsed=5.046ms
+INFO [08-30|19:32:24] Generating DAG in progress               epoch=53 percentage=90 elapsed=7m6.560s
+INFO [08-30|19:32:28] Generating DAG in progress               epoch=53 percentage=91 elapsed=7m10.252s
+INFO [08-30|19:32:32] Generating DAG in progress               epoch=53 percentage=92 elapsed=7m14.011s
+INFO [08-30|19:32:33] Imported new chain segment               blocks=1 txs=1 mgas=0.044 elapsed=22.878ms  mgasps=1.906   number=1583475 hash=d70a7d…a9ee52
+INFO [08-30|19:32:33] Commit new mining work                   number=1583476 txs=1 uncles=0 elapsed=20.291ms
+INFO [08-30|19:32:36] Generating DAG in progress               epoch=53 percentage=93 elapsed=7m18.035s
+INFO [08-30|19:32:39] Imported new chain segment               blocks=1 txs=1 mgas=0.051 elapsed=38.640ms  mgasps=1.319   number=1583476 hash=f354e9…5a171f
+INFO [08-30|19:32:39] Commit new mining work                   number=1583477 txs=0 uncles=0 elapsed=40.940ms
+INFO [08-30|19:32:40] Generating DAG in progress               epoch=53 percentage=94 elapsed=7m21.985s
+INFO [08-30|19:32:44] Generating DAG in progress               epoch=53 percentage=95 elapsed=7m26.444s
+INFO [08-30|19:32:47] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=40.032ms  mgasps=0.000   number=1583477 hash=a1715d…2d6b89
+INFO [08-30|19:32:47] Commit new mining work                   number=1583478 txs=0 uncles=0 elapsed=6.570ms
+INFO [08-30|19:32:48] Generating DAG in progress               epoch=53 percentage=96 elapsed=7m30.570s
+INFO [08-30|19:32:53] Generating DAG in progress               epoch=53 percentage=97 elapsed=7m34.979s
+INFO [08-30|19:32:58] Generating DAG in progress               epoch=53 percentage=98 elapsed=7m40.294s
+INFO [08-30|19:33:03] Generating DAG in progress               epoch=53 percentage=99 elapsed=7m45.611s
+INFO [08-30|19:33:03] Generated ethash verification cache      epoch=53 elapsed=7m45.612s
+INFO [08-30|19:34:09] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.998ms  mgasps=0.000   number=1583478 hash=c47160…24b6d2
+INFO [08-30|19:34:09] Commit new mining work                   number=1583479 txs=8 uncles=0 elapsed=111.322ms
+INFO [08-30|19:34:09] Imported new chain segment               blocks=1 txs=2 mgas=0.323 elapsed=16.138ms  mgasps=19.990  number=1583479 hash=c369a5…5a143d
+INFO [08-30|19:34:09] Commit new mining work                   number=1583480 txs=6 uncles=0 elapsed=20.665ms
+INFO [08-30|19:34:18] Imported new chain segment               blocks=1 txs=6 mgas=0.871 elapsed=80.607ms  mgasps=10.805  number=1583480 hash=f83a16…ac3cbb
+INFO [08-30|19:34:18] Commit new mining work                   number=1583481 txs=0 uncles=0 elapsed=2.481ms
+INFO [08-30|19:34:25] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.634ms   mgasps=0.000   number=1583481 hash=b0a6ad…c7afa2
+INFO [08-30|19:34:25] Commit new mining work                   number=1583482 txs=3 uncles=0 elapsed=12.855ms
+INFO [08-30|19:34:47] Imported new chain segment               blocks=1 txs=3 mgas=1.525 elapsed=17.656ms  mgasps=86.354  number=1583482 hash=d783cd…ded68a
+INFO [08-30|19:34:47] Commit new mining work                   number=1583483 txs=2 uncles=0 elapsed=8.537ms
+INFO [08-30|19:34:49] Imported new chain segment               blocks=1 txs=2 mgas=0.065 elapsed=11.761ms  mgasps=5.508   number=1583483 hash=9ae012…5a5f7a
+INFO [08-30|19:34:49] Commit new mining work                   number=1583484 txs=1 uncles=0 elapsed=954.449µs
+INFO [08-30|19:35:05] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=8.779ms   mgasps=2.392   number=1583484 hash=ea0bd5…b7ac3b
+INFO [08-30|19:35:05] Commit new mining work                   number=1583485 txs=0 uncles=0 elapsed=1.711ms
+INFO [08-30|19:35:23] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=21.804ms  mgasps=0.000   number=1583485 hash=a5e1aa…ce0191
+INFO [08-30|19:35:23] Commit new mining work                   number=1583486 txs=2 uncles=0 elapsed=15.462ms
+INFO [08-30|19:35:31] Imported new chain segment               blocks=1 txs=2 mgas=1.000 elapsed=24.433ms  mgasps=40.927  number=1583486 hash=ceb1b6…f33c9d
+INFO [08-30|19:35:31] Commit new mining work                   number=1583487 txs=0 uncles=0 elapsed=15.930ms
+INFO [08-30|19:35:32] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.444ms   mgasps=0.000   number=1583487 hash=f1bcda…414c40
+INFO [08-30|19:35:32] Commit new mining work                   number=1583488 txs=1 uncles=0 elapsed=11.321ms
+INFO [08-30|19:35:44] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=16.342ms  mgasps=1.285   number=1583488 hash=546071…6defb1
+INFO [08-30|19:35:44] Commit new mining work                   number=1583489 txs=8 uncles=0 elapsed=105.399ms
+INFO [08-30|19:35:46] Imported new chain segment               blocks=1 txs=6 mgas=0.843 elapsed=76.801ms  mgasps=10.982  number=1583489 hash=d0ed35…ea7a54
+INFO [08-30|19:35:46] Commit new mining work                   number=1583490 txs=2 uncles=0 elapsed=3.997ms
+INFO [08-30|19:35:56] Imported new chain segment               blocks=1 txs=3 mgas=0.090 elapsed=34.679ms  mgasps=2.583   number=1583490 hash=67151a…4ec95f
+INFO [08-30|19:35:56] Commit new mining work                   number=1583491 txs=2 uncles=0 elapsed=11.163ms
+INFO [08-30|19:35:57] Imported new chain segment               blocks=1 txs=2 mgas=0.042 elapsed=10.896ms  mgasps=3.854   number=1583490 hash=041809…7f2842
+INFO [08-30|19:35:57] Commit new mining work                   number=1583491 txs=3 uncles=1 elapsed=10.314ms
+INFO [08-30|19:36:07] Imported new chain segment               blocks=1 txs=3 mgas=0.236 elapsed=34.846ms  mgasps=6.762   number=1583491 hash=93a15f…215c01
+INFO [08-30|19:36:07] Commit new mining work                   number=1583492 txs=0 uncles=0 elapsed=11.202ms
+INFO [08-30|19:36:24] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=22.864ms  mgasps=0.000   number=1583492 hash=1ef131…465a3f
+INFO [08-30|19:36:24] Commit new mining work                   number=1583493 txs=4 uncles=0 elapsed=174.904ms
+INFO [08-30|19:36:27] Imported new chain segment               blocks=1 txs=4 mgas=0.317 elapsed=72.607ms  mgasps=4.362   number=1583493 hash=a31ad5…d4a3ff
+INFO [08-30|19:36:27] Commit new mining work                   number=1583494 txs=0 uncles=0 elapsed=1.366ms
+INFO [08-30|19:37:09] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.425ms   mgasps=0.000   number=1583494 hash=863434…dc6903
+INFO [08-30|19:37:09] Commit new mining work                   number=1583495 txs=2 uncles=0 elapsed=16.176ms
+INFO [08-30|19:37:09] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.330ms   mgasps=0.000   number=1583494 hash=1cb034…43c5ed
+INFO [08-30|19:37:09] Commit new mining work                   number=1583495 txs=2 uncles=1 elapsed=10.335ms
+INFO [08-30|19:37:16] Imported new chain segment               blocks=1 txs=2 mgas=0.333 elapsed=41.630ms  mgasps=8.006   number=1583495 hash=c01a84…0a051e
+INFO [08-30|19:37:16] Commit new mining work                   number=1583496 txs=1 uncles=1 elapsed=21.182ms
+INFO [08-30|19:37:34] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=40.116ms  mgasps=0.000   number=1583496 hash=fc256e…9d416a
+INFO [08-30|19:37:34] Commit new mining work                   number=1583497 txs=3 uncles=0 elapsed=40.777ms
+INFO [08-30|19:37:47] Imported new chain segment               blocks=1 txs=3 mgas=0.341 elapsed=59.141ms  mgasps=5.763   number=1583497 hash=391725…508ce2
+INFO [08-30|19:37:47] Commit new mining work                   number=1583498 txs=0 uncles=0 elapsed=4.531ms
+INFO [08-30|19:37:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.942ms   mgasps=0.000   number=1583498 hash=a9e2ff…4571a8
+INFO [08-30|19:37:58] Commit new mining work                   number=1583499 txs=2 uncles=0 elapsed=10.653ms
+INFO [08-30|19:38:00] Imported new chain segment               blocks=1 txs=2 mgas=0.679 elapsed=9.973ms   mgasps=68.124  number=1583499 hash=15d514…e63db7
+INFO [08-30|19:38:00] Commit new mining work                   number=1583500 txs=1 uncles=0 elapsed=2.770ms
+INFO [08-30|19:38:16] Imported new chain segment               blocks=1 txs=1 mgas=0.080 elapsed=8.847ms   mgasps=8.999   number=1583500 hash=18b017…ad67fa
+INFO [08-30|19:38:16] Commit new mining work                   number=1583501 txs=4 uncles=0 elapsed=40.916ms
+INFO [08-30|19:38:16] Imported new chain segment               blocks=1 txs=1 mgas=0.080 elapsed=44.228ms  mgasps=1.800   number=1583500 hash=cc9c52…d68e62
+INFO [08-30|19:38:16] Commit new mining work                   number=1583501 txs=4 uncles=1 elapsed=23.125ms
+INFO [08-30|19:38:20] Imported new chain segment               blocks=1 txs=4 mgas=1.509 elapsed=60.487ms  mgasps=24.942  number=1583501 hash=2670f8…5dae40
+INFO [08-30|19:38:20] Commit new mining work                   number=1583502 txs=0 uncles=0 elapsed=8.451ms
+INFO [08-30|19:38:32] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.671ms  mgasps=0.000   number=1583502 hash=6c426b…f1f4af
+INFO [08-30|19:38:32] Commit new mining work                   number=1583503 txs=1 uncles=0 elapsed=15.268ms
+INFO [08-30|19:38:37] Imported new chain segment               blocks=1 txs=1 mgas=0.778 elapsed=9.908ms   mgasps=78.566  number=1583503 hash=a4fa95…ae3741
+INFO [08-30|19:38:37] Commit new mining work                   number=1583504 txs=1 uncles=0 elapsed=24.716ms
+INFO [08-30|19:38:38] Imported new chain segment               blocks=1 txs=1 mgas=0.778 elapsed=9.320ms   mgasps=83.527  number=1583503 hash=965539…1bd324
+INFO [08-30|19:38:51] Imported new chain segment               blocks=1 txs=2 mgas=0.227 elapsed=55.452ms  mgasps=4.093   number=1583504 hash=164aa8…712271
+INFO [08-30|19:38:51] Commit new mining work                   number=1583505 txs=3 uncles=1 elapsed=54.766ms
+INFO [08-30|19:38:54] Imported new chain segment               blocks=1 txs=3 mgas=0.224 elapsed=25.976ms  mgasps=8.627   number=1583505 hash=591c0b…9cb24e
+INFO [08-30|19:38:54] Commit new mining work                   number=1583506 txs=0 uncles=0 elapsed=6.366ms
+INFO [08-30|19:39:19] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=14.674ms  mgasps=0.000   number=1583506 hash=8337b4…aed8c0
+INFO [08-30|19:39:19] Commit new mining work                   number=1583507 txs=3 uncles=0 elapsed=184.151ms
+INFO [08-30|19:39:21] Imported new chain segment               blocks=1 txs=3 mgas=0.185 elapsed=27.973ms  mgasps=6.602   number=1583507 hash=bcee6d…927818
+INFO [08-30|19:39:21] Commit new mining work                   number=1583508 txs=0 uncles=0 elapsed=1.249ms
+INFO [08-30|19:39:35] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.739ms   mgasps=0.000   number=1583508 hash=64375e…40e3e9
+INFO [08-30|19:39:35] Commit new mining work                   number=1583509 txs=1 uncles=0 elapsed=3.571ms
+INFO [08-30|19:39:41] Imported new chain segment               blocks=1 txs=2 mgas=0.079 elapsed=22.632ms  mgasps=3.485   number=1583509 hash=43b8eb…31055f
+INFO [08-30|19:39:41] Commit new mining work                   number=1583510 txs=1 uncles=0 elapsed=33.602ms
+INFO [08-30|19:40:00] Imported new chain segment               blocks=1 txs=1 mgas=0.099 elapsed=48.092ms  mgasps=2.050   number=1583510 hash=d4f252…897dfa
+INFO [08-30|19:40:00] Commit new mining work                   number=1583511 txs=1 uncles=0 elapsed=2.720ms
+INFO [08-30|19:40:02] Imported new chain segment               blocks=1 txs=1 mgas=0.046 elapsed=6.669ms   mgasps=6.923   number=1583511 hash=8eed4b…f7aec8
+INFO [08-30|19:40:02] Commit new mining work                   number=1583512 txs=0 uncles=0 elapsed=590.571µs
+INFO [08-30|19:40:14] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.920ms  mgasps=0.000   number=1583512 hash=a95cc8…6ea62c
+INFO [08-30|19:40:14] Commit new mining work                   number=1583513 txs=5 uncles=0 elapsed=15.921ms
+INFO [08-30|19:40:14] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.125ms  mgasps=0.000   number=1583512 hash=e085c8…08c231
+INFO [08-30|19:40:22] Imported new chain segment               blocks=1 txs=5 mgas=0.266 elapsed=41.816ms  mgasps=6.352   number=1583513 hash=0768c0…9842dd
+INFO [08-30|19:40:22] Commit new mining work                   number=1583514 txs=1 uncles=0 elapsed=6.924ms
+INFO [08-30|19:40:23] Imported new chain segment               blocks=1 txs=5 mgas=0.266 elapsed=32.137ms  mgasps=8.265   number=1583513 hash=3210a8…45cd30
+INFO [08-30|19:40:23] Commit new mining work                   number=1583514 txs=1 uncles=1 elapsed=2.682ms
+INFO [08-30|19:40:39] Imported new chain segment               blocks=1 txs=1 mgas=0.047 elapsed=18.196ms  mgasps=2.601   number=1583514 hash=abe661…7b50b8
+INFO [08-30|19:40:39] Commit new mining work                   number=1583515 txs=3 uncles=1 elapsed=18.684ms
+INFO [08-30|19:40:42] Imported new chain segment               blocks=1 txs=3 mgas=0.697 elapsed=68.429ms  mgasps=10.193  number=1583515 hash=1e658b…efb0a7
+INFO [08-30|19:40:42] Commit new mining work                   number=1583516 txs=0 uncles=0 elapsed=6.341ms
+INFO [08-30|19:40:54] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.633ms   mgasps=0.000   number=1583516 hash=480ff4…2b4a16
+INFO [08-30|19:40:54] Commit new mining work                   number=1583517 txs=1 uncles=0 elapsed=4.718ms
+INFO [08-30|19:40:59] Imported new chain segment               blocks=1 txs=1 mgas=4.712 elapsed=8.716ms   mgasps=540.611 number=1583517 hash=404923…a8585a
+INFO [08-30|19:40:59] Commit new mining work                   number=1583518 txs=1 uncles=0 elapsed=3.184ms
+INFO [08-30|19:40:59] Imported new chain segment               blocks=1 txs=1 mgas=4.712 elapsed=8.157ms   mgasps=577.684 number=1583517 hash=1b33ea…09711a
+INFO [08-30|19:41:07] Imported new chain segment               blocks=1 txs=1 mgas=0.034 elapsed=11.673ms  mgasps=2.955   number=1583518 hash=e7bde8…8dd9c8
+INFO [08-30|19:41:07] Commit new mining work                   number=1583519 txs=0 uncles=1 elapsed=2.784ms
+INFO [08-30|19:41:15] Imported new chain segment               blocks=1 txs=1 mgas=0.031 elapsed=15.016ms  mgasps=2.088   number=1583519 hash=1a908d…71992c
+INFO [08-30|19:41:15] Commit new mining work                   number=1583520 txs=2 uncles=0 elapsed=29.862ms
+INFO [08-30|19:41:46] Imported new chain segment               blocks=1 txs=2 mgas=0.197 elapsed=38.091ms  mgasps=5.176   number=1583520 hash=af7b4b…e5ecd7
+INFO [08-30|19:41:46] Commit new mining work                   number=1583521 txs=1 uncles=0 elapsed=5.220ms
+INFO [08-30|19:42:00] Imported new chain segment               blocks=1 txs=1 mgas=0.031 elapsed=13.174ms  mgasps=2.380   number=1583521 hash=88cfbe…53e2e4
+INFO [08-30|19:42:00] Commit new mining work                   number=1583522 txs=1 uncles=0 elapsed=39.642ms
+INFO [08-30|19:42:06] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=29.565ms  mgasps=4.457   number=1583522 hash=79bb3b…87383b
+INFO [08-30|19:42:06] Commit new mining work                   number=1583523 txs=1 uncles=0 elapsed=3.084ms
+INFO [08-30|19:42:19] Imported new chain segment               blocks=1 txs=1 mgas=0.031 elapsed=8.520ms   mgasps=3.672   number=1583523 hash=594197…872756
+INFO [08-30|19:42:19] Commit new mining work                   number=1583524 txs=0 uncles=0 elapsed=7.212ms
+INFO [08-30|19:42:29] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.555ms  mgasps=0.000   number=1583524 hash=afd5ee…4e072e
+INFO [08-30|19:42:29] Commit new mining work                   number=1583525 txs=1 uncles=0 elapsed=13.798ms
+INFO [08-30|19:42:33] Imported new chain segment               blocks=1 txs=1 mgas=0.201 elapsed=11.207ms  mgasps=17.978  number=1583525 hash=ce5c44…4ea5f8
+INFO [08-30|19:42:33] Commit new mining work                   number=1583526 txs=0 uncles=0 elapsed=1.840ms
+INFO [08-30|19:42:39] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.394ms  mgasps=0.000   number=1583526 hash=dd2bde…b489f7
+INFO [08-30|19:42:39] Commit new mining work                   number=1583527 txs=1 uncles=0 elapsed=25.182ms
+INFO [08-30|19:42:49] Imported new chain segment               blocks=1 txs=1 mgas=0.042 elapsed=9.191ms   mgasps=4.566   number=1583527 hash=51a14d…947a3c
+INFO [08-30|19:42:49] Commit new mining work                   number=1583528 txs=0 uncles=0 elapsed=4.365ms
+INFO [08-30|19:42:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.974ms  mgasps=0.000   number=1583528 hash=e8590f…b2a343
+INFO [08-30|19:42:58] Commit new mining work                   number=1583529 txs=0 uncles=0 elapsed=7.099ms
+INFO [08-30|19:43:01] Imported new chain segment               blocks=1 txs=1 mgas=0.491 elapsed=10.392ms  mgasps=47.230  number=1583529 hash=662db3…627299
+INFO [08-30|19:43:01] Commit new mining work                   number=1583530 txs=1 uncles=0 elapsed=21.099ms
+INFO [08-30|19:43:24] Imported new chain segment               blocks=1 txs=1 mgas=0.110 elapsed=109.675ms mgasps=1.005   number=1583530 hash=e88530…a56066
+INFO [08-30|19:43:24] Commit new mining work                   number=1583531 txs=2 uncles=0 elapsed=20.957ms
+INFO [08-30|19:43:41] Imported new chain segment               blocks=1 txs=3 mgas=1.214 elapsed=47.627ms  mgasps=25.491  number=1583531 hash=041deb…1c83d5
+INFO [08-30|19:43:41] Commit new mining work                   number=1583532 txs=4 uncles=0 elapsed=84.145ms
+INFO [08-30|19:43:54] Imported new chain segment               blocks=1 txs=4 mgas=0.395 elapsed=57.161ms  mgasps=6.902   number=1583532 hash=76b1b6…d4ef80
+INFO [08-30|19:43:54] Commit new mining work                   number=1583533 txs=1 uncles=0 elapsed=15.793ms
+INFO [08-30|19:43:59] Imported new chain segment               blocks=1 txs=1 mgas=0.778 elapsed=16.750ms  mgasps=46.474  number=1583533 hash=25a708…835e7d
+INFO [08-30|19:43:59] Commit new mining work                   number=1583534 txs=0 uncles=0 elapsed=8.274ms
+INFO [08-30|19:44:01] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.538ms   mgasps=0.000   number=1583534 hash=d3e801…ae9a67
+INFO [08-30|19:44:01] Commit new mining work                   number=1583535 txs=0 uncles=0 elapsed=655.77µs
+INFO [08-30|19:44:05] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.238ms   mgasps=0.000   number=1583535 hash=5b892f…926804
+INFO [08-30|19:44:05] Commit new mining work                   number=1583536 txs=1 uncles=0 elapsed=1.804ms
+INFO [08-30|19:44:43] Imported new chain segment               blocks=1 txs=1 mgas=0.027 elapsed=12.832ms  mgasps=2.101   number=1583536 hash=246e50…d3a6fe
+INFO [08-30|19:44:43] Commit new mining work                   number=1583537 txs=2 uncles=0 elapsed=28.194ms
+INFO [08-30|19:45:01] Imported new chain segment               blocks=1 txs=2 mgas=0.120 elapsed=63.485ms  mgasps=1.883   number=1583537 hash=e85c3b…55185a
+INFO [08-30|19:45:01] Commit new mining work                   number=1583538 txs=1 uncles=0 elapsed=68.914ms
+INFO [08-30|19:45:04] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=12.943ms  mgasps=10.182  number=1583538 hash=47bad5…a722db
+INFO [08-30|19:45:04] Commit new mining work                   number=1583539 txs=0 uncles=0 elapsed=744.918µs
+INFO [08-30|19:45:11] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.548ms   mgasps=0.000   number=1583539 hash=80f1be…9cb619
+INFO [08-30|19:45:11] Commit new mining work                   number=1583540 txs=0 uncles=0 elapsed=938.2µs
+INFO [08-30|19:45:30] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.522ms   mgasps=0.000   number=1583540 hash=557dea…412c40
+INFO [08-30|19:45:30] Commit new mining work                   number=1583541 txs=2 uncles=0 elapsed=32.749ms
+INFO [08-30|19:45:37] Imported new chain segment               blocks=1 txs=2 mgas=0.120 elapsed=34.837ms  mgasps=3.432   number=1583541 hash=b1209b…a531ba
+INFO [08-30|19:45:37] Commit new mining work                   number=1583542 txs=0 uncles=0 elapsed=1.759ms
+INFO [08-30|19:45:42] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.992ms  mgasps=0.000   number=1583542 hash=901451…ca732b
+INFO [08-30|19:45:42] Commit new mining work                   number=1583543 txs=0 uncles=0 elapsed=5.027ms
+INFO [08-30|19:45:50] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.721ms  mgasps=0.000   number=1583543 hash=11da55…61947a
+INFO [08-30|19:45:50] Commit new mining work                   number=1583544 txs=0 uncles=0 elapsed=4.057ms
+INFO [08-30|19:45:53] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.386ms  mgasps=0.000   number=1583544 hash=6b0177…f79873
+INFO [08-30|19:45:53] Commit new mining work                   number=1583545 txs=0 uncles=0 elapsed=24.483ms
+INFO [08-30|19:45:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.131ms   mgasps=0.000   number=1583545 hash=5ecd6e…f507ad
+INFO [08-30|19:45:55] Commit new mining work                   number=1583546 txs=0 uncles=0 elapsed=636.282µs
+INFO [08-30|19:45:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.601ms   mgasps=0.000   number=1583546 hash=e8248b…b62771
+INFO [08-30|19:45:58] Commit new mining work                   number=1583547 txs=0 uncles=0 elapsed=1.826ms
+INFO [08-30|19:46:00] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=24.707ms  mgasps=0.000   number=1583547 hash=a09b6d…44736c
+INFO [08-30|19:46:00] Commit new mining work                   number=1583548 txs=0 uncles=0 elapsed=5.551ms
+INFO [08-30|19:46:07] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.924ms   mgasps=0.000   number=1583548 hash=fd0ed0…de18be
+INFO [08-30|19:46:07] Commit new mining work                   number=1583549 txs=1 uncles=0 elapsed=3.778ms
+INFO [08-30|19:46:10] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.624ms   mgasps=0.000   number=1583548 hash=08bef8…b11e4e
+INFO [08-30|19:46:12] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=18.940ms  mgasps=1.109   number=1583549 hash=633859…48368d
+INFO [08-30|19:46:12] Commit new mining work                   number=1583550 txs=0 uncles=1 elapsed=8.145ms
+INFO [08-30|19:46:16] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=25.783ms  mgasps=0.000   number=1583550 hash=0f9eb6…4ebc62
+INFO [08-30|19:46:16] Commit new mining work                   number=1583551 txs=3 uncles=0 elapsed=70.584ms
+INFO [08-30|19:46:58] Imported new chain segment               blocks=1 txs=3 mgas=0.296 elapsed=69.498ms  mgasps=4.255   number=1583551 hash=f77a59…7cc525
+INFO [08-30|19:46:58] Commit new mining work                   number=1583552 txs=5 uncles=0 elapsed=55.673ms
+INFO [08-30|19:47:40] Imported new chain segment               blocks=1 txs=5 mgas=0.495 elapsed=99.346ms  mgasps=4.981   number=1583552 hash=49a6a0…3e2be6
+INFO [08-30|19:47:40] Commit new mining work                   number=1583553 txs=0 uncles=0 elapsed=12.164ms
+INFO [08-30|19:48:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=24.927ms  mgasps=0.000   number=1583553 hash=a66cc9…6e53c1
+INFO [08-30|19:48:06] Commit new mining work                   number=1583554 txs=0 uncles=0 elapsed=10.864ms
+INFO [08-30|19:48:29] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.198ms  mgasps=0.000   number=1583554 hash=cbe5c9…bc4edb
+INFO [08-30|19:48:29] Commit new mining work                   number=1583555 txs=1 uncles=0 elapsed=3.497ms
+INFO [08-30|19:48:37] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=20.209ms  mgasps=1.039   number=1583555 hash=935b30…875781
+INFO [08-30|19:48:37] Commit new mining work                   number=1583556 txs=0 uncles=0 elapsed=1.935ms
+INFO [08-30|19:48:47] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.089ms  mgasps=0.000   number=1583556 hash=301d46…5f4ad4
+INFO [08-30|19:48:47] Commit new mining work                   number=1583557 txs=2 uncles=0 elapsed=29.935ms
+INFO [08-30|19:49:10] Imported new chain segment               blocks=1 txs=2 mgas=0.350 elapsed=75.319ms  mgasps=4.645   number=1583557 hash=7501a5…e23bdf
+INFO [08-30|19:49:10] Commit new mining work                   number=1583558 txs=0 uncles=0 elapsed=3.744ms
+INFO [08-30|19:49:38] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.168ms   mgasps=0.000   number=1583558 hash=83c402…1b6c7e
+INFO [08-30|19:49:38] Commit new mining work                   number=1583559 txs=3 uncles=0 elapsed=7.715ms
+INFO [08-30|19:49:47] Imported new chain segment               blocks=1 txs=7 mgas=1.199 elapsed=89.313ms  mgasps=13.429  number=1583559 hash=756b63…5bdbbb
+INFO [08-30|19:49:47] Commit new mining work                   number=1583560 txs=0 uncles=0 elapsed=1.727ms
+INFO [08-30|19:50:13] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.383ms   mgasps=0.000   number=1583560 hash=a46fd2…53e44a
+INFO [08-30|19:50:13] Commit new mining work                   number=1583561 txs=1 uncles=0 elapsed=9.084ms
+INFO [08-30|19:50:21] Imported new chain segment               blocks=1 txs=1 mgas=0.022 elapsed=15.861ms  mgasps=1.387   number=1583561 hash=6da2e4…518083
+INFO [08-30|19:50:21] Commit new mining work                   number=1583562 txs=1 uncles=0 elapsed=7.871ms
+INFO [08-30|19:50:21] Imported new chain segment               blocks=1 txs=1 mgas=0.022 elapsed=12.415ms  mgasps=1.772   number=1583561 hash=f1512d…06d473
+INFO [08-30|19:50:21] Commit new mining work                   number=1583562 txs=2 uncles=1 elapsed=11.251ms
+INFO [08-30|19:50:51] Imported new chain segment               blocks=1 txs=1 mgas=0.047 elapsed=21.490ms  mgasps=2.202   number=1583562 hash=bf00b5…07ff47
+INFO [08-30|19:50:51] Commit new mining work                   number=1583563 txs=3 uncles=1 elapsed=31.646ms
+INFO [08-30|19:51:05] Imported new chain segment               blocks=1 txs=3 mgas=0.686 elapsed=70.528ms  mgasps=9.728   number=1583563 hash=2eb98c…4508b3
+INFO [08-30|19:51:05] Commit new mining work                   number=1583564 txs=2 uncles=0 elapsed=32.841ms
+INFO [08-30|19:51:12] Imported new chain segment               blocks=1 txs=2 mgas=0.172 elapsed=39.497ms  mgasps=4.344   number=1583564 hash=4dceda…da213a
+INFO [08-30|19:51:12] Commit new mining work                   number=1583565 txs=0 uncles=0 elapsed=1.755ms
+INFO [08-30|19:51:24] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.344ms   mgasps=0.000   number=1583565 hash=8c5af6…fc88a7
+INFO [08-30|19:51:24] Commit new mining work                   number=1583566 txs=0 uncles=0 elapsed=1.121ms
+INFO [08-30|19:52:20] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.720ms  mgasps=0.000   number=1583566 hash=be4bf1…d246cd
+INFO [08-30|19:52:20] Commit new mining work                   number=1583567 txs=2 uncles=0 elapsed=43.888ms
+INFO [08-30|19:52:45] Imported new chain segment               blocks=1 txs=2 mgas=1.438 elapsed=58.217ms  mgasps=24.705  number=1583567 hash=414958…ad4403
+INFO [08-30|19:52:45] Commit new mining work                   number=1583568 txs=1 uncles=0 elapsed=18.981ms
+INFO [08-30|19:53:06] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=28.538ms  mgasps=4.618   number=1583568 hash=d7611f…fa68e2
+INFO [08-30|19:53:06] Commit new mining work                   number=1583569 txs=4 uncles=0 elapsed=13.735ms
+INFO [08-30|19:53:11] Imported new chain segment               blocks=1 txs=4 mgas=0.365 elapsed=26.663ms  mgasps=13.703  number=1583569 hash=bede2b…932f53
+INFO [08-30|19:53:11] Commit new mining work                   number=1583570 txs=2 uncles=0 elapsed=4.349ms
+INFO [08-30|19:53:40] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.823ms  mgasps=0.000   number=1583570 hash=6b90bd…c3975b
+INFO [08-30|19:53:40] Commit new mining work                   number=1583571 txs=4 uncles=0 elapsed=14.687ms
+INFO [08-30|19:54:08] Imported new chain segment               blocks=1 txs=2 mgas=0.042 elapsed=15.230ms  mgasps=2.758   number=1583571 hash=3e7fcc…40df02
+INFO [08-30|19:54:08] Commit new mining work                   number=1583572 txs=4 uncles=0 elapsed=6.846ms
+INFO [08-30|19:54:12] Imported new chain segment               blocks=1 txs=4 mgas=0.084 elapsed=9.501ms   mgasps=8.841   number=1583572 hash=6b0dd9…b3cf9e
+INFO [08-30|19:54:12] Commit new mining work                   number=1583573 txs=0 uncles=0 elapsed=512.001µs
+INFO [08-30|19:54:21] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.782ms  mgasps=0.000   number=1583573 hash=67fcb0…e626f0
+INFO [08-30|19:54:21] Commit new mining work                   number=1583574 txs=3 uncles=0 elapsed=61.373ms
+INFO [08-30|19:54:31] Imported new chain segment               blocks=1 txs=3 mgas=3.891 elapsed=77.382ms  mgasps=50.285  number=1583574 hash=bfe35a…bab0f4
+INFO [08-30|19:54:31] Commit new mining work                   number=1583575 txs=2 uncles=0 elapsed=29.252ms
+INFO [08-30|19:55:12] Imported new chain segment               blocks=1 txs=2 mgas=0.242 elapsed=56.188ms  mgasps=4.307   number=1583575 hash=372909…d4600d
+INFO [08-30|19:55:12] Commit new mining work                   number=1583576 txs=2 uncles=0 elapsed=20.913ms
+INFO [08-30|19:55:16] Imported new chain segment               blocks=1 txs=2 mgas=3.793 elapsed=39.079ms  mgasps=97.048  number=1583576 hash=3f8d5f…84aa02
+INFO [08-30|19:55:16] Commit new mining work                   number=1583577 txs=0 uncles=0 elapsed=4.081ms
+INFO [08-30|19:55:19] Imported new chain segment               blocks=1 txs=1 mgas=3.772 elapsed=27.505ms  mgasps=137.124 number=1583577 hash=c39894…86ca27
+INFO [08-30|19:55:19] Commit new mining work                   number=1583578 txs=0 uncles=0 elapsed=525.25µs
+INFO [08-30|19:55:36] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.521ms   mgasps=0.000   number=1583578 hash=4a72f2…c0edf8
+INFO [08-30|19:55:36] Commit new mining work                   number=1583579 txs=2 uncles=0 elapsed=32.884ms
+INFO [08-30|19:55:43] Imported new chain segment               blocks=1 txs=3 mgas=4.050 elapsed=55.271ms  mgasps=73.278  number=1583579 hash=a83a91…e35c67
+INFO [08-30|19:55:43] Commit new mining work                   number=1583580 txs=1 uncles=0 elapsed=34.167ms
+INFO [08-30|19:55:51] Imported new chain segment               blocks=1 txs=2 mgas=0.399 elapsed=48.059ms  mgasps=8.293   number=1583580 hash=faa9e3…026c9e
+INFO [08-30|19:55:51] Commit new mining work                   number=1583581 txs=1 uncles=0 elapsed=9.820ms
+INFO [08-30|19:56:22] Imported new chain segment               blocks=1 txs=1 mgas=0.022 elapsed=10.068ms  mgasps=2.192   number=1583581 hash=9e23a2…4fdaaf
+INFO [08-30|19:56:22] Commit new mining work                   number=1583582 txs=2 uncles=0 elapsed=22.263ms
+INFO [08-30|19:56:25] Imported new chain segment               blocks=1 txs=2 mgas=0.218 elapsed=19.160ms  mgasps=11.380  number=1583582 hash=56284d…d00fb3
+INFO [08-30|19:56:25] Commit new mining work                   number=1583583 txs=0 uncles=0 elapsed=4.290ms
+INFO [08-30|19:56:51] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.501ms   mgasps=0.000   number=1583583 hash=e46135…ff1bd7
+INFO [08-30|19:56:51] Commit new mining work                   number=1583584 txs=1 uncles=0 elapsed=20.133ms
+INFO [08-30|19:57:07] Imported new chain segment               blocks=1 txs=2 mgas=0.451 elapsed=41.170ms  mgasps=10.963  number=1583584 hash=dd7638…224d95
+INFO [08-30|19:57:07] Commit new mining work                   number=1583585 txs=1 uncles=0 elapsed=6.016ms
+INFO [08-30|19:57:21] Imported new chain segment               blocks=1 txs=1 mgas=0.126 elapsed=16.890ms  mgasps=7.436   number=1583585 hash=139ca8…f69d60
+INFO [08-30|19:57:21] Commit new mining work                   number=1583586 txs=2 uncles=0 elapsed=13.269ms
+INFO [08-30|19:57:35] Imported new chain segment               blocks=1 txs=2 mgas=0.229 elapsed=22.176ms  mgasps=10.304  number=1583586 hash=cea8c4…13ca57
+INFO [08-30|19:57:35] Commit new mining work                   number=1583587 txs=0 uncles=0 elapsed=4.913ms
+INFO [08-30|19:57:38] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.319ms  mgasps=0.000   number=1583587 hash=12bd85…ed04cb
+INFO [08-30|19:57:38] Commit new mining work                   number=1583588 txs=0 uncles=0 elapsed=960.09µs
+INFO [08-30|19:57:41] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.309ms   mgasps=0.000   number=1583588 hash=3a75c3…afd9f5
+INFO [08-30|19:57:41] Commit new mining work                   number=1583589 txs=0 uncles=0 elapsed=844.773µs
+INFO [08-30|19:57:46] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.499ms  mgasps=0.000   number=1583589 hash=c5c70a…984998
+INFO [08-30|19:57:46] Commit new mining work                   number=1583590 txs=0 uncles=0 elapsed=1.501ms
+INFO [08-30|19:57:59] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.176ms   mgasps=0.000   number=1583590 hash=5038bd…3a7431
+INFO [08-30|19:57:59] Commit new mining work                   number=1583591 txs=1 uncles=0 elapsed=4.857ms
+INFO [08-30|19:58:15] Imported new chain segment               blocks=1 txs=1 mgas=0.022 elapsed=18.343ms  mgasps=1.203   number=1583591 hash=49a119…a19f97
+INFO [08-30|19:58:15] Commit new mining work                   number=1583592 txs=2 uncles=0 elapsed=52.066ms
+INFO [08-30|19:58:22] Imported new chain segment               blocks=1 txs=2 mgas=3.153 elapsed=66.330ms  mgasps=47.535  number=1583592 hash=adaace…3289dd
+INFO [08-30|19:58:22] Commit new mining work                   number=1583593 txs=1 uncles=0 elapsed=31.857ms
+INFO [08-30|19:58:38] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=27.359ms  mgasps=4.817   number=1583593 hash=2770a8…6c9c6e
+INFO [08-30|19:58:38] Commit new mining work                   number=1583594 txs=2 uncles=0 elapsed=13.559ms
+INFO [08-30|19:58:50] Imported new chain segment               blocks=1 txs=2 mgas=2.014 elapsed=27.905ms  mgasps=72.155  number=1583594 hash=ea198c…8efadc
+INFO [08-30|19:58:50] Commit new mining work                   number=1583595 txs=2 uncles=0 elapsed=43.450ms
+INFO [08-30|19:59:15] Imported new chain segment               blocks=1 txs=2 mgas=0.197 elapsed=50.886ms  mgasps=3.874   number=1583595 hash=b296f5…c647d6
+INFO [08-30|19:59:15] Commit new mining work                   number=1583596 txs=1 uncles=0 elapsed=24.118ms
+INFO [08-30|20:00:08] Imported new chain segment               blocks=1 txs=2 mgas=0.121 elapsed=44.319ms  mgasps=2.721   number=1583596 hash=049d0f…aa61b0
+INFO [08-30|20:00:08] Commit new mining work                   number=1583597 txs=6 uncles=0 elapsed=36.123ms
+INFO [08-30|20:00:13] Imported new chain segment               blocks=1 txs=5 mgas=0.943 elapsed=18.937ms  mgasps=49.782  number=1583597 hash=e6fb3b…4bca91
+INFO [08-30|20:00:13] Commit new mining work                   number=1583598 txs=5 uncles=0 elapsed=13.441ms
+INFO [08-30|20:00:26] Imported new chain segment               blocks=1 txs=5 mgas=0.173 elapsed=31.435ms  mgasps=5.500   number=1583598 hash=110e65…39d8af
+INFO [08-30|20:00:26] Commit new mining work                   number=1583599 txs=1 uncles=0 elapsed=8.671ms
+INFO [08-30|20:00:36] Imported new chain segment               blocks=1 txs=3 mgas=0.089 elapsed=16.644ms  mgasps=5.367   number=1583599 hash=0cc5ea…a42706
+INFO [08-30|20:00:36] Commit new mining work                   number=1583600 txs=0 uncles=0 elapsed=1.319ms
+INFO [08-30|20:00:40] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.873ms   mgasps=0.000   number=1583600 hash=f261f0…89bfc0
+INFO [08-30|20:00:40] Commit new mining work                   number=1583601 txs=3 uncles=0 elapsed=88.254ms
+INFO [08-30|20:00:58] Imported new chain segment               blocks=1 txs=3 mgas=1.110 elapsed=32.364ms  mgasps=34.305  number=1583601 hash=e48bf8…7694cc
+INFO [08-30|20:00:58] Commit new mining work                   number=1583602 txs=0 uncles=0 elapsed=1.919ms
+INFO [08-30|20:01:04] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.213ms  mgasps=0.000   number=1583602 hash=f45f70…ffbc8e
+INFO [08-30|20:01:04] Commit new mining work                   number=1583603 txs=0 uncles=0 elapsed=6.799ms
+INFO [08-30|20:01:09] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.854ms   mgasps=0.000   number=1583603 hash=5dd21d…7dcaad
+INFO [08-30|20:01:09] Commit new mining work                   number=1583604 txs=0 uncles=0 elapsed=619.869µs
+INFO [08-30|20:01:10] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=17.810ms  mgasps=0.000   number=1583604 hash=ec71b1…d48601
+INFO [08-30|20:01:10] Commit new mining work                   number=1583605 txs=0 uncles=0 elapsed=738.743µs
+INFO [08-30|20:01:42] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.551ms   mgasps=0.000   number=1583605 hash=9e3dca…71d76a
+INFO [08-30|20:01:42] Commit new mining work                   number=1583606 txs=6 uncles=0 elapsed=75.816ms
+INFO [08-30|20:01:44] Imported new chain segment               blocks=1 txs=6 mgas=0.553 elapsed=34.885ms  mgasps=15.864  number=1583606 hash=b72e6c…1edddd
+INFO [08-30|20:01:44] Commit new mining work                   number=1583607 txs=0 uncles=0 elapsed=4.869ms
+INFO [08-30|20:01:53] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.294ms  mgasps=0.000   number=1583607 hash=234f1a…a7cc08
+INFO [08-30|20:01:53] Commit new mining work                   number=1583608 txs=0 uncles=0 elapsed=2.670ms
+INFO [08-30|20:01:58] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.689ms  mgasps=0.000   number=1583608 hash=3bf30b…9878ac
+INFO [08-30|20:01:58] Commit new mining work                   number=1583609 txs=1 uncles=0 elapsed=6.517ms
+INFO [08-30|20:02:16] Imported new chain segment               blocks=1 txs=1 mgas=0.033 elapsed=15.411ms  mgasps=2.141   number=1583609 hash=3ccd79…bc4fc8
+INFO [08-30|20:02:16] Commit new mining work                   number=1583610 txs=0 uncles=0 elapsed=1.693ms
+INFO [08-30|20:02:18] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.200ms   mgasps=0.000   number=1583610 hash=0a45c6…d4ec4a
+INFO [08-30|20:02:18] Commit new mining work                   number=1583611 txs=0 uncles=0 elapsed=765.128µs
+INFO [08-30|20:02:40] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.417ms   mgasps=0.000   number=1583611 hash=682ae0…ee23a2
+INFO [08-30|20:02:40] Commit new mining work                   number=1583612 txs=1 uncles=0 elapsed=57.382ms
+INFO [08-30|20:02:54] Imported new chain segment               blocks=1 txs=1 mgas=0.099 elapsed=32.537ms  mgasps=3.031   number=1583612 hash=1e82cb…21b856
+INFO [08-30|20:02:54] Commit new mining work                   number=1583613 txs=0 uncles=0 elapsed=6.184ms
+INFO [08-30|20:03:06] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.665ms   mgasps=0.000   number=1583613 hash=99a97c…7f4a45
+INFO [08-30|20:03:06] Commit new mining work                   number=1583614 txs=1 uncles=0 elapsed=45.905ms
+INFO [08-30|20:03:21] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=81.244ms  mgasps=1.622   number=1583614 hash=79a52d…036118
+INFO [08-30|20:03:21] Commit new mining work                   number=1583615 txs=2 uncles=0 elapsed=25.166ms
+INFO [08-30|20:03:28] Imported new chain segment               blocks=1 txs=2 mgas=1.195 elapsed=23.187ms  mgasps=51.548  number=1583615 hash=15325f…4e8baf
+INFO [08-30|20:03:28] Commit new mining work                   number=1583616 txs=0 uncles=0 elapsed=6.681ms
+INFO [08-30|20:03:36] Imported new chain segment               blocks=1 txs=1 mgas=0.028 elapsed=12.405ms  mgasps=2.246   number=1583616 hash=280720…7b14d5
+INFO [08-30|20:03:36] Commit new mining work                   number=1583617 txs=3 uncles=0 elapsed=9.115ms
+INFO [08-30|20:03:55] Imported new chain segment               blocks=1 txs=3 mgas=0.222 elapsed=28.256ms  mgasps=7.857   number=1583617 hash=c850e4…311a77
+INFO [08-30|20:03:55] Commit new mining work                   number=1583618 txs=0 uncles=0 elapsed=1.994ms
+INFO [08-30|20:03:59] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.577ms   mgasps=0.000   number=1583618 hash=77ad17…96c3b2
+INFO [08-30|20:03:59] Commit new mining work                   number=1583619 txs=0 uncles=0 elapsed=10.131ms
+INFO [08-30|20:04:10] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.825ms  mgasps=0.000   number=1583619 hash=2b7c8e…badcc3
+INFO [08-30|20:04:10] Commit new mining work                   number=1583620 txs=2 uncles=0 elapsed=11.835ms
+INFO [08-30|20:04:16] Imported new chain segment               blocks=1 txs=2 mgas=0.113 elapsed=19.014ms  mgasps=5.926   number=1583620 hash=a84dc7…495594
+INFO [08-30|20:04:16] Commit new mining work                   number=1583621 txs=1 uncles=0 elapsed=17.650ms
+INFO [08-30|20:04:44] Imported new chain segment               blocks=1 txs=1 mgas=0.099 elapsed=45.958ms  mgasps=2.145   number=1583621 hash=91efa2…e4b9a7
+INFO [08-30|20:04:44] Commit new mining work                   number=1583622 txs=6 uncles=0 elapsed=21.466ms
+INFO [08-30|20:04:48] Imported new chain segment               blocks=1 txs=6 mgas=0.417 elapsed=18.340ms  mgasps=22.755  number=1583622 hash=751d80…e4df5c
+INFO [08-30|20:04:48] Commit new mining work                   number=1583623 txs=0 uncles=0 elapsed=3.043ms
+INFO [08-30|20:04:52] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.356ms   mgasps=0.000   number=1583623 hash=59f123…71b2f4
+INFO [08-30|20:04:52] Commit new mining work                   number=1583624 txs=1 uncles=0 elapsed=5.095ms
+INFO [08-30|20:04:53] Imported new chain segment               blocks=1 txs=1 mgas=0.048 elapsed=9.998ms   mgasps=4.778   number=1583624 hash=407a92…efdd8d
+INFO [08-30|20:04:53] Commit new mining work                   number=1583625 txs=0 uncles=0 elapsed=441.91µs
+INFO [08-30|20:05:18] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.334ms  mgasps=0.000   number=1583625 hash=230534…8eb176
+INFO [08-30|20:05:18] Commit new mining work                   number=1583626 txs=3 uncles=0 elapsed=30.714ms
+INFO [08-30|20:05:21] Imported new chain segment               blocks=1 txs=3 mgas=0.423 elapsed=23.116ms  mgasps=18.298  number=1583626 hash=84fbc5…d90282
+INFO [08-30|20:05:21] Commit new mining work                   number=1583627 txs=0 uncles=0 elapsed=423.084µs
+INFO [08-30|20:05:37] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.854ms   mgasps=0.000   number=1583627 hash=21dc8c…f7ed76
+INFO [08-30|20:05:37] Commit new mining work                   number=1583628 txs=4 uncles=0 elapsed=34.387ms
+INFO [08-30|20:05:56] Imported new chain segment               blocks=1 txs=4 mgas=0.665 elapsed=39.429ms  mgasps=16.875  number=1583628 hash=ff5b5c…99e395
+INFO [08-30|20:05:56] Commit new mining work                   number=1583629 txs=2 uncles=0 elapsed=35.042ms
+INFO [08-30|20:06:01] Imported new chain segment               blocks=1 txs=2 mgas=0.197 elapsed=21.482ms  mgasps=9.183   number=1583629 hash=60351d…442d60
+INFO [08-30|20:06:01] Commit new mining work                   number=1583630 txs=2 uncles=0 elapsed=14.660ms
+INFO [08-30|20:06:05] Imported new chain segment               blocks=1 txs=2 mgas=4.609 elapsed=21.055ms  mgasps=218.878 number=1583630 hash=0372f1…7030ce
+INFO [08-30|20:06:05] Commit new mining work                   number=1583631 txs=0 uncles=0 elapsed=948.624µs
+INFO [08-30|20:06:52] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.790ms   mgasps=0.000   number=1583631 hash=b27fea…0bf760
+INFO [08-30|20:06:52] Commit new mining work                   number=1583632 txs=6 uncles=0 elapsed=57.854ms
+INFO [08-30|20:07:10] Imported new chain segment               blocks=1 txs=3 mgas=0.082 elapsed=32.706ms  mgasps=2.502   number=1583632 hash=537547…50b120
+INFO [08-30|20:07:10] Commit new mining work                   number=1583633 txs=3 uncles=0 elapsed=66.454ms
+INFO [08-30|20:07:20] Imported new chain segment               blocks=1 txs=3 mgas=0.307 elapsed=61.710ms  mgasps=4.981   number=1583633 hash=9ff273…35fb0d
+INFO [08-30|20:07:20] Commit new mining work                   number=1583634 txs=4 uncles=0 elapsed=21.679ms
+INFO [08-30|20:07:27] Imported new chain segment               blocks=1 txs=3 mgas=0.082 elapsed=52.313ms  mgasps=1.564   number=1583634 hash=c2d1a1…035827
+INFO [08-30|20:07:27] Commit new mining work                   number=1583635 txs=2 uncles=0 elapsed=48.466ms
+INFO [08-30|20:07:29] Imported new chain segment               blocks=1 txs=2 mgas=0.230 elapsed=67.976ms  mgasps=3.387   number=1583635 hash=61e26e…ac6a19
+INFO [08-30|20:07:29] Commit new mining work                   number=1583636 txs=0 uncles=0 elapsed=1.341ms
+INFO [08-30|20:07:41] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.176ms   mgasps=0.000   number=1583636 hash=eca3fa…08169d
+INFO [08-30|20:07:41] Commit new mining work                   number=1583637 txs=1 uncles=0 elapsed=5.004ms
+INFO [08-30|20:07:46] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=18.008ms  mgasps=1.177   number=1583637 hash=85b9ca…206792
+INFO [08-30|20:07:46] Commit new mining work                   number=1583638 txs=0 uncles=0 elapsed=530.388µs
+INFO [08-30|20:07:50] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.916ms  mgasps=0.000   number=1583638 hash=a74ce2…04b23a
+INFO [08-30|20:07:50] Commit new mining work                   number=1583639 txs=0 uncles=0 elapsed=530.705µs
+INFO [08-30|20:07:51] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.332ms   mgasps=0.000   number=1583638 hash=edc7f5…c813dd
+INFO [08-30|20:07:51] Commit new mining work                   number=1583639 txs=0 uncles=1 elapsed=1.167ms
+INFO [08-30|20:08:10] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=9.219ms   mgasps=0.000   number=1583639 hash=12c3b3…0f5e40
+INFO [08-30|20:08:10] Commit new mining work                   number=1583640 txs=1 uncles=1 elapsed=2.261ms
+INFO [08-30|20:08:19] Imported new chain segment               blocks=1 txs=1 mgas=0.029 elapsed=20.828ms  mgasps=1.374   number=1583640 hash=27aee6…55acc2
+INFO [08-30|20:08:19] Commit new mining work                   number=1583641 txs=3 uncles=1 elapsed=37.522ms
+INFO [08-30|20:08:20] Imported new chain segment               blocks=1 txs=1 mgas=0.029 elapsed=22.204ms  mgasps=1.288   number=1583640 hash=57a0d7…b11c6f
+INFO [08-30|20:08:20] Commit new mining work                   number=1583641 txs=3 uncles=1 elapsed=9.276ms
+INFO [08-30|20:08:44] Imported new chain segment               blocks=1 txs=3 mgas=0.082 elapsed=46.347ms  mgasps=1.766   number=1583641 hash=0a68fe…79930d
+INFO [08-30|20:08:44] Commit new mining work                   number=1583642 txs=3 uncles=0 elapsed=80.772ms
+INFO [08-30|20:09:28] Imported new chain segment               blocks=1 txs=3 mgas=0.814 elapsed=129.778ms mgasps=6.271   number=1583642 hash=db207e…575734
+INFO [08-30|20:09:28] Commit new mining work                   number=1583643 txs=4 uncles=0 elapsed=15.160ms
+INFO [08-30|20:09:57] Imported new chain segment               blocks=1 txs=5 mgas=3.643 elapsed=425.425ms mgasps=8.564   number=1583643 hash=8c933e…471c19
+INFO [08-30|20:09:57] Commit new mining work                   number=1583644 txs=1 uncles=0 elapsed=33.884ms
+INFO [08-30|20:10:26] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=21.309ms  mgasps=0.985   number=1583644 hash=8f276b…02d315
+INFO [08-30|20:10:26] Commit new mining work                   number=1583645 txs=3 uncles=0 elapsed=527.649ms
+INFO [08-30|20:10:39] Imported new chain segment               blocks=1 txs=3 mgas=0.209 elapsed=99.137ms  mgasps=2.107   number=1583645 hash=799f1a…b83d3d
+INFO [08-30|20:10:39] Commit new mining work                   number=1583646 txs=1 uncles=0 elapsed=58.978ms
+INFO [08-30|20:10:51] Imported new chain segment               blocks=1 txs=1 mgas=0.021 elapsed=18.188ms  mgasps=1.155   number=1583646 hash=12d143…080050
+INFO [08-30|20:10:51] Commit new mining work                   number=1583647 txs=1 uncles=0 elapsed=40.958ms
+INFO [08-30|20:11:19] Imported new chain segment               blocks=1 txs=1 mgas=0.132 elapsed=38.490ms  mgasps=3.424   number=1583647 hash=7164ed…68efea
+INFO [08-30|20:11:19] Commit new mining work                   number=1583648 txs=1 uncles=0 elapsed=18.721ms
+INFO [08-30|20:11:29] Imported new chain segment               blocks=1 txs=1 mgas=0.029 elapsed=12.151ms  mgasps=2.359   number=1583648 hash=9bc0eb…e33f70
+INFO [08-30|20:11:29] Commit new mining work                   number=1583649 txs=1 uncles=0 elapsed=3.516ms
+INFO [08-30|20:11:45] Imported new chain segment               blocks=1 txs=1 mgas=0.038 elapsed=26.282ms  mgasps=1.445   number=1583649 hash=deb79d…dff50c
+INFO [08-30|20:11:45] Commit new mining work                   number=1583650 txs=4 uncles=0 elapsed=56.352ms
+INFO [08-30|20:12:28] Imported new chain segment               blocks=1 txs=4 mgas=0.665 elapsed=35.478ms  mgasps=18.741  number=1583650 hash=4bdd54…21af47
+INFO [08-30|20:12:28] Commit new mining work                   number=1583651 txs=1 uncles=0 elapsed=255.363ms
+INFO [08-30|20:12:50] Imported new chain segment               blocks=1 txs=1 mgas=0.099 elapsed=32.476ms  mgasps=3.035   number=1583651 hash=643506…85cbc4
+INFO [08-30|20:12:50] Commit new mining work                   number=1583652 txs=2 uncles=0 elapsed=30.951ms
+INFO [08-30|20:12:53] Imported new chain segment               blocks=1 txs=2 mgas=0.242 elapsed=19.127ms  mgasps=12.655  number=1583652 hash=fbbd9c…342b4a
+INFO [08-30|20:12:53] Commit new mining work                   number=1583653 txs=0 uncles=0 elapsed=997.87µs
+INFO [08-30|20:13:03] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.221ms  mgasps=0.000   number=1583653 hash=89e23e…fe9bd1
+INFO [08-30|20:13:03] Commit new mining work                   number=1583654 txs=0 uncles=0 elapsed=1.914ms
+INFO [08-30|20:13:05] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.203ms  mgasps=0.000   number=1583654 hash=d96781…e77f3f
+INFO [08-30|20:13:05] Commit new mining work                   number=1583655 txs=0 uncles=0 elapsed=567.456µs
+INFO [08-30|20:13:20] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=22.886ms  mgasps=0.000   number=1583655 hash=67a91a…c62c34
+INFO [08-30|20:13:20] Commit new mining work                   number=1583656 txs=2 uncles=0 elapsed=60.678ms
+INFO [08-30|20:13:33] Imported new chain segment               blocks=1 txs=2 mgas=0.087 elapsed=39.922ms  mgasps=2.177   number=1583656 hash=fc154b…960482
+INFO [08-30|20:13:33] Commit new mining work                   number=1583657 txs=0 uncles=0 elapsed=261.490ms
+INFO [08-30|20:13:35] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.408ms  mgasps=0.000   number=1583657 hash=db2883…83331f
+INFO [08-30|20:13:36] Commit new mining work                   number=1583658 txs=0 uncles=0 elapsed=725.643ms
+INFO [08-30|20:13:42] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.350ms  mgasps=0.000   number=1583658 hash=4a65ae…884073
+INFO [08-30|20:13:42] Commit new mining work                   number=1583659 txs=3 uncles=0 elapsed=72.262ms
+INFO [08-30|20:14:18] Imported new chain segment               blocks=1 txs=3 mgas=0.296 elapsed=174.330ms mgasps=1.695   number=1583659 hash=076f51…1b9600
+INFO [08-30|20:14:18] Commit new mining work                   number=1583660 txs=5 uncles=0 elapsed=77.423ms
+INFO [08-30|20:14:23] Imported new chain segment               blocks=1 txs=5 mgas=0.498 elapsed=49.158ms  mgasps=10.130  number=1583660 hash=aa7a2d…cf67d4
+INFO [08-30|20:14:23] Commit new mining work                   number=1583661 txs=0 uncles=0 elapsed=4.787ms
+INFO [08-30|20:15:01] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.566ms  mgasps=0.000   number=1583661 hash=c2586e…101693
+INFO [08-30|20:15:01] Commit new mining work                   number=1583662 txs=2 uncles=0 elapsed=16.782ms
+INFO [08-30|20:15:03] Imported new chain segment               blocks=1 txs=2 mgas=4.501 elapsed=18.723ms  mgasps=240.400 number=1583662 hash=74771c…21da52
+INFO [08-30|20:15:03] Commit new mining work                   number=1583663 txs=1 uncles=0 elapsed=23.017ms
+INFO [08-30|20:15:06] Imported new chain segment               blocks=1 txs=1 mgas=0.054 elapsed=21.813ms  mgasps=2.493   number=1583663 hash=951af6…9dba49
+INFO [08-30|20:15:06] Commit new mining work                   number=1583664 txs=0 uncles=0 elapsed=474.922µs
+INFO [08-30|20:15:13] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.200ms   mgasps=0.000   number=1583664 hash=dd3a64…9d2785
+INFO [08-30|20:15:13] Commit new mining work                   number=1583665 txs=1 uncles=0 elapsed=6.288ms
+INFO [08-30|20:15:13] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.689ms   mgasps=0.000   number=1583664 hash=cd4f2d…df1b5c
+INFO [08-30|20:15:18] Imported new chain segment               blocks=1 txs=1 mgas=0.584 elapsed=20.732ms  mgasps=28.145  number=1583665 hash=d87eff…88fe6a
+INFO [08-30|20:15:18] Commit new mining work                   number=1583666 txs=2 uncles=0 elapsed=59.166ms
+INFO [08-30|20:15:36] Imported new chain segment               blocks=1 txs=2 mgas=0.125 elapsed=77.334ms  mgasps=1.622   number=1583666 hash=d3ce88…f93c50
+INFO [08-30|20:15:36] Commit new mining work                   number=1583667 txs=2 uncles=0 elapsed=31.932ms
+INFO [08-30|20:15:37] Imported new chain segment               blocks=1 txs=2 mgas=0.216 elapsed=24.156ms  mgasps=8.921   number=1583667 hash=e9938d…9f904a
+INFO [08-30|20:15:37] Commit new mining work                   number=1583668 txs=0 uncles=0 elapsed=577.631µs
+INFO [08-30|20:15:38] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.500ms  mgasps=0.000   number=1583668 hash=0abd4d…cc4063
+INFO [08-30|20:15:38] Commit new mining work                   number=1583669 txs=0 uncles=0 elapsed=484.154µs
+INFO [08-30|20:15:50] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=14.783ms  mgasps=0.000   number=1583669 hash=c5bb1d…1afca0
+INFO [08-30|20:15:50] Commit new mining work                   number=1583670 txs=0 uncles=0 elapsed=2.023ms
+INFO [08-30|20:15:55] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.472ms   mgasps=0.000   number=1583670 hash=463f2b…9d4d32
+INFO [08-30|20:15:56] Commit new mining work                   number=1583671 txs=0 uncles=0 elapsed=129.631ms
+INFO [08-30|20:15:57] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.694ms   mgasps=0.000   number=1583671 hash=ce9f2f…9a5503
+INFO [08-30|20:15:57] Commit new mining work                   number=1583672 txs=0 uncles=0 elapsed=2.841ms
+INFO [08-30|20:15:59] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.298ms   mgasps=0.000   number=1583672 hash=c40802…cced2e
+INFO [08-30|20:15:59] Commit new mining work                   number=1583673 txs=0 uncles=0 elapsed=647.933µs
+INFO [08-30|20:16:12] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.757ms   mgasps=0.000   number=1583673 hash=b07019…312eba
+INFO [08-30|20:16:12] Commit new mining work                   number=1583674 txs=0 uncles=0 elapsed=1.528ms
+INFO [08-30|20:18:28] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.769ms  mgasps=0.000   number=1583674 hash=ef804d…b50a3a
+INFO [08-30|20:18:28] Commit new mining work                   number=1583675 txs=12 uncles=0 elapsed=345.763ms
+INFO [08-30|20:18:41] Imported new chain segment               blocks=1 txs=12 mgas=1.178 elapsed=94.608ms  mgasps=12.454  number=1583675 hash=056a18…8f322c
+INFO [08-30|20:18:42] Commit new mining work                   number=1583676 txs=18 uncles=0 elapsed=110.374ms
+INFO [08-30|20:19:11] Imported new chain segment               blocks=1 txs=18 mgas=0.456 elapsed=201.305ms mgasps=2.263   number=1583676 hash=0f32a9…2d2e30
+INFO [08-30|20:19:11] Commit new mining work                   number=1583677 txs=35 uncles=0 elapsed=163.324ms
+INFO [08-30|20:19:27] Imported new chain segment               blocks=1 txs=35 mgas=1.477 elapsed=203.783ms mgasps=7.249   number=1583677 hash=ab3994…e275a4
+INFO [08-30|20:19:27] Commit new mining work                   number=1583678 txs=0  uncles=0 elapsed=604.517µs
+INFO [08-30|20:19:31] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.834ms  mgasps=0.000   number=1583678 hash=207709…ee1c46
+INFO [08-30|20:19:31] Commit new mining work                   number=1583679 txs=0  uncles=0 elapsed=321.415µs
+INFO [08-30|20:19:38] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.195ms   mgasps=0.000   number=1583679 hash=b7c4fb…f9292c
+INFO [08-30|20:19:38] Commit new mining work                   number=1583680 txs=0  uncles=0 elapsed=575.746µs
+INFO [08-30|20:20:03] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.989ms  mgasps=0.000   number=1583680 hash=296f0d…f26deb
+INFO [08-30|20:20:03] Commit new mining work                   number=1583681 txs=51 uncles=0 elapsed=101.029ms
+INFO [08-30|20:20:16] Imported new chain segment               blocks=1 txs=51 mgas=1.182 elapsed=247.284ms mgasps=4.779   number=1583681 hash=44199f…d5af11
+INFO [08-30|20:20:16] Commit new mining work                   number=1583682 txs=4  uncles=0 elapsed=82.527ms
+INFO [08-30|20:20:24] Imported new chain segment               blocks=1 txs=4  mgas=0.199 elapsed=51.486ms  mgasps=3.866   number=1583682 hash=477776…64d6de
+INFO [08-30|20:20:24] Commit new mining work                   number=1583683 txs=1  uncles=0 elapsed=8.690ms
+INFO [08-30|20:20:26] Imported new chain segment               blocks=1 txs=1  mgas=4.472 elapsed=9.406ms   mgasps=475.442 number=1583683 hash=8a7406…ea196e
+INFO [08-30|20:20:26] Commit new mining work                   number=1583684 txs=0  uncles=0 elapsed=378.612µs
+INFO [08-30|20:20:29] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=12.567ms  mgasps=0.000   number=1583684 hash=3f1305…6d0454
+INFO [08-30|20:20:29] Commit new mining work                   number=1583685 txs=0  uncles=0 elapsed=770.015µs
+INFO [08-30|20:20:35] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=7.512ms   mgasps=0.000   number=1583685 hash=6c00d3…fe6c69
+INFO [08-30|20:20:35] Commit new mining work                   number=1583686 txs=0  uncles=0 elapsed=414.505µs
+INFO [08-30|20:20:48] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=41.562ms  mgasps=0.000   number=1583686 hash=67d95d…4f6cd8
+INFO [08-30|20:20:48] Commit new mining work                   number=1583687 txs=1  uncles=0 elapsed=3.055ms
+INFO [08-30|20:20:52] Imported new chain segment               blocks=1 txs=1  mgas=0.029 elapsed=11.469ms  mgasps=2.494   number=1583687 hash=62b062…285c18
+INFO [08-30|20:20:52] Commit new mining work                   number=1583688 txs=0  uncles=0 elapsed=715.361µs
+INFO [08-30|20:21:00] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=22.778ms  mgasps=0.000   number=1583688 hash=2a4cf7…fb175a
+INFO [08-30|20:21:00] Commit new mining work                   number=1583689 txs=0  uncles=0 elapsed=1.388ms
+INFO [08-30|20:21:01] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.037ms   mgasps=0.000   number=1583689 hash=257c2c…09778c
+INFO [08-30|20:21:01] Commit new mining work                   number=1583690 txs=0  uncles=0 elapsed=818.325µs
+INFO [08-30|20:21:03] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=6.745ms   mgasps=0.000   number=1583690 hash=293810…2a4e9e
+INFO [08-30|20:21:03] Commit new mining work                   number=1583691 txs=0  uncles=0 elapsed=950.106µs
+INFO [08-30|20:21:05] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=13.785ms  mgasps=0.000   number=1583691 hash=319ac5…3c7a0a
+INFO [08-30|20:21:05] Commit new mining work                   number=1583692 txs=0  uncles=0 elapsed=823.698µs
+INFO [08-30|20:21:08] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.299ms   mgasps=0.000   number=1583692 hash=b443eb…757107
+INFO [08-30|20:21:08] Commit new mining work                   number=1583693 txs=0  uncles=0 elapsed=1.103ms
+INFO [08-30|20:21:13] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=14.909ms  mgasps=0.000   number=1583693 hash=ff6ce5…06ec6f
+INFO [08-30|20:21:13] Commit new mining work                   number=1583694 txs=24 uncles=0 elapsed=157.021ms
+INFO [08-30|20:21:20] Imported new chain segment               blocks=1 txs=23 mgas=0.625 elapsed=71.376ms  mgasps=8.759   number=1583694 hash=362c4e…e8382d
+INFO [08-30|20:21:20] Commit new mining work                   number=1583695 txs=25 uncles=0 elapsed=206.405ms
+INFO [08-30|20:21:30] Imported new chain segment               blocks=1 txs=1  mgas=0.099 elapsed=22.872ms  mgasps=4.310   number=1583695 hash=103848…c1ff27
+INFO [08-30|20:21:30] Commit new mining work                   number=1583696 txs=24 uncles=0 elapsed=71.347ms
+INFO [08-30|20:21:40] Imported new chain segment               blocks=1 txs=24 mgas=0.640 elapsed=54.842ms  mgasps=11.671  number=1583696 hash=716551…40e75e
+INFO [08-30|20:21:40] Commit new mining work                   number=1583697 txs=3  uncles=0 elapsed=83.865ms
+INFO [08-30|20:21:52] Imported new chain segment               blocks=1 txs=3  mgas=0.329 elapsed=125.786ms mgasps=2.614   number=1583697 hash=c77026…c98f99
+INFO [08-30|20:21:52] Commit new mining work                   number=1583698 txs=1  uncles=0 elapsed=5.366ms
+INFO [08-30|20:21:54] Imported new chain segment               blocks=1 txs=1  mgas=0.167 elapsed=10.499ms  mgasps=15.951  number=1583698 hash=7ebc62…c69f81
+INFO [08-30|20:21:54] Commit new mining work                   number=1583699 txs=0  uncles=0 elapsed=575.982µs
+INFO [08-30|20:21:59] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.606ms   mgasps=0.000   number=1583699 hash=2c1a0b…2816d7
+INFO [08-30|20:21:59] Commit new mining work                   number=1583700 txs=0  uncles=0 elapsed=507.062µs
+INFO [08-30|20:22:08] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=13.094ms  mgasps=0.000   number=1583700 hash=e2394d…799ebf
+INFO [08-30|20:22:08] Commit new mining work                   number=1583701 txs=0  uncles=0 elapsed=718.418µs
+INFO [08-30|20:22:13] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=10.939ms  mgasps=0.000   number=1583701 hash=743e9d…856227
+INFO [08-30|20:22:13] Commit new mining work                   number=1583702 txs=0  uncles=0 elapsed=733.333µs
+INFO [08-30|20:22:26] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=18.448ms  mgasps=0.000   number=1583702 hash=d3e683…70d158
+INFO [08-30|20:22:26] Commit new mining work                   number=1583703 txs=2  uncles=0 elapsed=74.879ms
+INFO [08-30|20:22:49] Imported new chain segment               blocks=1 txs=2  mgas=0.599 elapsed=86.320ms  mgasps=6.934   number=1583703 hash=5fa227…c8185a
+INFO [08-30|20:22:49] Commit new mining work                   number=1583704 txs=1  uncles=0 elapsed=8.890ms
+INFO [08-30|20:22:59] Imported new chain segment               blocks=1 txs=2  mgas=0.042 elapsed=26.924ms  mgasps=1.560   number=1583704 hash=d229f9…7c98e1
+INFO [08-30|20:22:59] Commit new mining work                   number=1583705 txs=2  uncles=0 elapsed=5.575ms
+INFO [08-30|20:23:04] Imported new chain segment               blocks=1 txs=2  mgas=0.059 elapsed=10.997ms  mgasps=5.326   number=1583705 hash=d2bea7…93aa55
+INFO [08-30|20:23:04] Commit new mining work                   number=1583706 txs=0  uncles=0 elapsed=563.82µs
+INFO [08-30|20:23:23] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=17.640ms  mgasps=0.000   number=1583706 hash=1c1b82…ddfdfd
+INFO [08-30|20:23:23] Commit new mining work                   number=1583707 txs=4  uncles=0 elapsed=60.819ms
+INFO [08-30|20:23:24] Imported new chain segment               blocks=1 txs=4  mgas=0.195 elapsed=62.491ms  mgasps=3.117   number=1583707 hash=e7454a…fc295e
+INFO [08-30|20:23:24] Commit new mining work                   number=1583708 txs=0  uncles=0 elapsed=816.45µs
+INFO [08-30|20:23:35] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=13.214ms  mgasps=0.000   number=1583708 hash=884b01…9203dd
+INFO [08-30|20:23:35] Commit new mining work                   number=1583709 txs=0  uncles=0 elapsed=444.436µs
+INFO [08-30|20:23:45] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=9.381ms   mgasps=0.000   number=1583709 hash=2dd16c…add472
+INFO [08-30|20:23:45] Commit new mining work                   number=1583710 txs=2  uncles=0 elapsed=52.838ms
+INFO [08-30|20:23:46] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=7.986ms   mgasps=0.000   number=1583709 hash=b27d2a…f5bff8
+INFO [08-30|20:23:46] Commit new mining work                   number=1583710 txs=2  uncles=1 elapsed=26.128ms
+INFO [08-30|20:24:07] Imported new chain segment               blocks=1 txs=2  mgas=0.120 elapsed=83.846ms  mgasps=1.426   number=1583710 hash=f6e018…791538
+INFO [08-30|20:24:07] Commit new mining work                   number=1583711 txs=2  uncles=1 elapsed=57.455ms
+INFO [08-30|20:24:10] Imported new chain segment               blocks=1 txs=1  mgas=0.048 elapsed=21.068ms  mgasps=2.276   number=1583711 hash=7b6b98…acd567
+INFO [08-30|20:24:10] Commit new mining work                   number=1583712 txs=1  uncles=0 elapsed=2.896ms
+INFO [08-30|20:24:22] Imported new chain segment               blocks=1 txs=1  mgas=0.049 elapsed=22.654ms  mgasps=2.145   number=1583712 hash=e316aa…69dd69
+INFO [08-30|20:24:22] Commit new mining work                   number=1583713 txs=2  uncles=0 elapsed=50.507ms
+INFO [08-30|20:24:33] Imported new chain segment               blocks=1 txs=2  mgas=0.599 elapsed=87.194ms  mgasps=6.865   number=1583713 hash=1b442a…0027db
+INFO [08-30|20:24:33] Commit new mining work                   number=1583714 txs=0  uncles=0 elapsed=778.271µs
+INFO [08-30|20:24:41] Imported new chain segment               blocks=1 txs=1  mgas=0.049 elapsed=49.554ms  mgasps=0.981   number=1583712 hash=77b7c5…ba23b7
+INFO [08-30|20:25:02] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=11.067ms  mgasps=0.000   number=1583714 hash=d257de…a27e70
+INFO [08-30|20:25:02] Commit new mining work                   number=1583715 txs=1  uncles=0 elapsed=61.213ms
+INFO [08-30|20:25:18] Imported new chain segment               blocks=1 txs=1  mgas=0.132 elapsed=32.515ms  mgasps=4.053   number=1583715 hash=8c7b1f…f56527
+INFO [08-30|20:25:18] Commit new mining work                   number=1583716 txs=0  uncles=0 elapsed=360.908µs
+INFO [08-30|20:26:04] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=10.452ms  mgasps=0.000   number=1583716 hash=0570a0…43f665
+INFO [08-30|20:26:04] Commit new mining work                   number=1583717 txs=3  uncles=0 elapsed=28.235ms
+INFO [08-30|20:26:21] Imported new chain segment               blocks=1 txs=3  mgas=0.375 elapsed=32.191ms  mgasps=11.662  number=1583717 hash=debfbf…3c1838
+INFO [08-30|20:26:21] Commit new mining work                   number=1583718 txs=1  uncles=0 elapsed=3.749ms
+INFO [08-30|20:26:24] Imported new chain segment               blocks=1 txs=1  mgas=0.049 elapsed=14.634ms  mgasps=3.321   number=1583718 hash=d8b6aa…9fc931
+INFO [08-30|20:26:24] Commit new mining work                   number=1583719 txs=1  uncles=0 elapsed=11.013ms
+INFO [08-30|20:26:46] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=11.466ms  mgasps=0.000   number=1583719 hash=66808f…c2d0d9
+INFO [08-30|20:26:46] Commit new mining work                   number=1583720 txs=53 uncles=0 elapsed=164.230ms
+INFO [08-30|20:26:51] Imported new chain segment               blocks=1 txs=53 mgas=4.567 elapsed=161.684ms mgasps=28.247  number=1583720 hash=ddface…7265dc
+INFO [08-30|20:26:51] Commit new mining work                   number=1583721 txs=5  uncles=0 elapsed=218.291ms
+INFO [08-30|20:27:08] Imported new chain segment               blocks=1 txs=5  mgas=0.650 elapsed=110.402ms mgasps=5.886   number=1583721 hash=91389e…6d7d8c
+INFO [08-30|20:27:08] Commit new mining work                   number=1583722 txs=3  uncles=0 elapsed=27.066ms
+INFO [08-30|20:27:17] Imported new chain segment               blocks=1 txs=3  mgas=0.182 elapsed=58.292ms  mgasps=3.131   number=1583722 hash=acf0c5…c60e08
+INFO [08-30|20:27:17] Commit new mining work                   number=1583723 txs=2  uncles=0 elapsed=52.870ms
+INFO [08-30|20:27:35] Imported new chain segment               blocks=1 txs=5  mgas=0.215 elapsed=134.940ms mgasps=1.596   number=1583723 hash=97b825…6f3f3d
+INFO [08-30|20:27:36] Commit new mining work                   number=1583724 txs=2  uncles=0 elapsed=19.952ms
+INFO [08-30|20:27:36] Imported new chain segment               blocks=1 txs=5  mgas=0.215 elapsed=30.738ms  mgasps=7.007   number=1583723 hash=29cf89…9a9159
+INFO [08-30|20:27:40] Imported new chain segment               blocks=1 txs=1  mgas=0.049 elapsed=45.696ms  mgasps=1.064   number=1583724 hash=89862a…623e42
+INFO [08-30|20:27:40] Commit new mining work                   number=1583725 txs=2  uncles=0 elapsed=18.059ms
+INFO [08-30|20:28:03] Imported new chain segment               blocks=1 txs=2  mgas=0.042 elapsed=30.212ms  mgasps=1.390   number=1583725 hash=134b10…374d71
+INFO [08-30|20:28:03] Commit new mining work                   number=1583726 txs=51 uncles=0 elapsed=123.864ms
+INFO [08-30|20:28:20] Imported new chain segment               blocks=1 txs=51 mgas=4.519 elapsed=128.255ms mgasps=35.235  number=1583726 hash=122ace…ac2401
+INFO [08-30|20:28:20] Commit new mining work                   number=1583727 txs=2  uncles=0 elapsed=79.327ms
+INFO [08-30|20:28:47] Imported new chain segment               blocks=1 txs=2  mgas=0.300 elapsed=53.321ms  mgasps=5.627   number=1583727 hash=563f3d…b2b5d9
+INFO [08-30|20:28:47] Commit new mining work                   number=1583728 txs=6  uncles=0 elapsed=74.178ms
+INFO [08-30|20:28:53] Imported new chain segment               blocks=1 txs=8  mgas=1.858 elapsed=103.163ms mgasps=18.014  number=1583728 hash=530057…038ed0
+INFO [08-30|20:28:53] Commit new mining work                   number=1583729 txs=1  uncles=0 elapsed=10.148ms
+INFO [08-30|20:28:56] Imported new chain segment               blocks=1 txs=1  mgas=0.042 elapsed=8.761ms   mgasps=4.790   number=1583729 hash=dab071…e8a4f9
+INFO [08-30|20:28:56] Commit new mining work                   number=1583730 txs=1  uncles=0 elapsed=13.383ms
+INFO [08-30|20:29:01] Imported new chain segment               blocks=1 txs=1  mgas=0.243 elapsed=9.094ms   mgasps=26.676  number=1583730 hash=7131aa…757d0a
+INFO [08-30|20:29:01] Commit new mining work                   number=1583731 txs=1  uncles=0 elapsed=17.994ms
+INFO [08-30|20:29:03] Imported new chain segment               blocks=1 txs=1  mgas=0.491 elapsed=13.248ms  mgasps=37.046  number=1583731 hash=1b4f1e…5a0138
+INFO [08-30|20:29:03] Commit new mining work                   number=1583732 txs=0  uncles=0 elapsed=292.85µs
+INFO [08-30|20:29:05] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=7.615ms   mgasps=0.000   number=1583732 hash=aedcb3…fcf2c3
+INFO [08-30|20:29:05] Commit new mining work                   number=1583733 txs=1  uncles=0 elapsed=5.581ms
+INFO [08-30|20:29:09] Imported new chain segment               blocks=1 txs=1  mgas=0.781 elapsed=15.000ms  mgasps=52.076  number=1583733 hash=0aa34f…7cf0cd
+INFO [08-30|20:29:09] Commit new mining work                   number=1583734 txs=1  uncles=0 elapsed=20.979ms
+INFO [08-30|20:29:16] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.527ms   mgasps=0.000   number=1583734 hash=3fac39…8a6c55
+INFO [08-30|20:29:16] Commit new mining work                   number=1583735 txs=2  uncles=0 elapsed=73.343ms
+INFO [08-30|20:29:17] Imported new chain segment               blocks=1 txs=1  mgas=1.014 elapsed=13.337ms  mgasps=76.052  number=1583734 hash=1e26b0…ead0f3
+INFO [08-30|20:29:17] Commit new mining work                   number=1583735 txs=1  uncles=1 elapsed=6.512ms
+INFO [08-30|20:29:23] Imported new chain segment               blocks=1 txs=1  mgas=0.099 elapsed=18.010ms  mgasps=5.473   number=1583735 hash=a6e3f9…79a772
+INFO [08-30|20:29:23] Commit new mining work                   number=1583736 txs=2  uncles=0 elapsed=6.075ms
+INFO [08-30|20:29:55] Imported new chain segment               blocks=1 txs=2  mgas=0.043 elapsed=17.105ms  mgasps=2.514   number=1583736 hash=2e6d8e…194e70
+INFO [08-30|20:29:55] Commit new mining work                   number=1583737 txs=44 uncles=0 elapsed=67.710ms
+INFO [08-30|20:30:00] Imported new chain segment               blocks=1 txs=43 mgas=4.526 elapsed=214.704ms mgasps=21.081  number=1583737 hash=fa6d5e…0fcfce
+INFO [08-30|20:30:00] Commit new mining work                   number=1583738 txs=8  uncles=0 elapsed=15.098ms
+INFO [08-30|20:30:08] Imported new chain segment               blocks=1 txs=8  mgas=0.707 elapsed=25.320ms  mgasps=27.927  number=1583738 hash=228331…04d324
+INFO [08-30|20:30:08] Commit new mining work                   number=1583739 txs=2  uncles=0 elapsed=26.488ms
+INFO [08-30|20:30:11] Imported new chain segment               blocks=1 txs=5  mgas=0.255 elapsed=20.394ms  mgasps=12.482  number=1583739 hash=42ae70…c1371a
+INFO [08-30|20:30:11] Commit new mining work                   number=1583740 txs=0  uncles=0 elapsed=341.974µs
+INFO [08-30|20:30:13] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=7.157ms   mgasps=0.000   number=1583740 hash=b15a7b…55c5f9
+INFO [08-30|20:30:13] Commit new mining work                   number=1583741 txs=0  uncles=0 elapsed=343.508µs
+INFO [08-30|20:30:14] Imported new chain segment               blocks=1 txs=4  mgas=0.228 elapsed=17.256ms  mgasps=13.189  number=1583739 hash=c080ad…adaa67
+INFO [08-30|20:30:35] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=19.563ms  mgasps=0.000   number=1583741 hash=afba68…4a17c4
+INFO [08-30|20:30:35] Commit new mining work                   number=1583742 txs=3  uncles=1 elapsed=29.091ms
+INFO [08-30|20:30:43] Imported new chain segment               blocks=1 txs=3  mgas=0.474 elapsed=18.622ms  mgasps=25.472  number=1583742 hash=ad6e44…a2602e
+INFO [08-30|20:30:43] Commit new mining work                   number=1583743 txs=3  uncles=0 elapsed=18.638ms
+INFO [08-30|20:30:44] Imported new chain segment               blocks=1 txs=2  mgas=1.000 elapsed=8.872ms   mgasps=112.711 number=1583743 hash=e61136…500c96
+INFO [08-30|20:30:44] Commit new mining work                   number=1583744 txs=0  uncles=0 elapsed=669.155µs
+INFO [08-30|20:30:54] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=10.811ms  mgasps=0.000   number=1583744 hash=f40f44…deae22
+INFO [08-30|20:30:54] Commit new mining work                   number=1583745 txs=0  uncles=0 elapsed=647.76µs
+INFO [08-30|20:31:22] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=13.429ms  mgasps=0.000   number=1583745 hash=6025f5…b261d7
+INFO [08-30|20:31:22] Commit new mining work                   number=1583746 txs=49 uncles=0 elapsed=55.923ms
+INFO [08-30|20:31:39] Imported new chain segment               blocks=1 txs=49 mgas=4.212 elapsed=125.295ms mgasps=33.619  number=1583746 hash=4371b5…b102f3
+INFO [08-30|20:31:39] Commit new mining work                   number=1583747 txs=1  uncles=0 elapsed=70.171ms
+INFO [08-30|20:31:40] Imported new chain segment               blocks=1 txs=49 mgas=4.212 elapsed=147.553ms mgasps=28.548  number=1583746 hash=8277d5…d9622b
+INFO [08-30|20:31:40] Commit new mining work                   number=1583747 txs=1  uncles=1 elapsed=17.965ms
+INFO [08-30|20:31:43] Imported new chain segment               blocks=1 txs=1  mgas=0.132 elapsed=19.045ms  mgasps=6.919   number=1583747 hash=a5b23b…6638a1
+INFO [08-30|20:31:43] Commit new mining work                   number=1583748 txs=0  uncles=0 elapsed=19.976ms
+INFO [08-30|20:32:11] Imported new chain segment               blocks=1 txs=1  mgas=0.052 elapsed=19.092ms  mgasps=2.706   number=1583748 hash=55fddd…d2f5d7
+INFO [08-30|20:32:11] Commit new mining work                   number=1583749 txs=1  uncles=0 elapsed=30.663ms
+INFO [08-30|20:32:17] Imported new chain segment               blocks=1 txs=1  mgas=0.314 elapsed=9.942ms   mgasps=31.596  number=1583749 hash=7e34d1…a736a2
+INFO [08-30|20:32:17] Commit new mining work                   number=1583750 txs=2  uncles=0 elapsed=39.603ms
+INFO [08-30|20:32:22] Imported new chain segment               blocks=1 txs=1  mgas=0.099 elapsed=35.830ms  mgasps=2.751   number=1583750 hash=087808…1ba0a8
+INFO [08-30|20:32:22] Commit new mining work                   number=1583751 txs=2  uncles=0 elapsed=14.224ms
+INFO [08-30|20:32:25] Imported new chain segment               blocks=1 txs=1  mgas=0.049 elapsed=8.265ms   mgasps=5.880   number=1583751 hash=4299c6…d92fc0
+INFO [08-30|20:32:25] Commit new mining work                   number=1583752 txs=0  uncles=0 elapsed=8.627ms
+INFO [08-30|20:32:44] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.394ms   mgasps=0.000   number=1583752 hash=7c5111…eff026
+INFO [08-30|20:32:44] Commit new mining work                   number=1583753 txs=3  uncles=0 elapsed=58.676ms
+INFO [08-30|20:33:36] Imported new chain segment               blocks=1 txs=3  mgas=0.246 elapsed=109.074ms mgasps=2.254   number=1583753 hash=e55475…3f3799
+INFO [08-30|20:33:36] Commit new mining work                   number=1583754 txs=6  uncles=0 elapsed=63.271ms
+INFO [08-30|20:33:38] Imported new chain segment               blocks=1 txs=6  mgas=0.554 elapsed=23.615ms  mgasps=23.472  number=1583754 hash=45c0d4…9d520a
+INFO [08-30|20:33:38] Commit new mining work                   number=1583755 txs=0  uncles=0 elapsed=2.071ms
+INFO [08-30|20:33:56] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=8.909ms   mgasps=0.000   number=1583755 hash=192dc4…4c66a7
+INFO [08-30|20:33:56] Commit new mining work                   number=1583756 txs=0  uncles=0 elapsed=517.849µs
+INFO [08-30|20:34:02] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=10.466ms  mgasps=0.000   number=1583756 hash=9819ce…c81248
+INFO [08-30|20:34:02] Commit new mining work                   number=1583757 txs=0  uncles=0 elapsed=256.47µs
+INFO [08-30|20:34:10] Imported new chain segment               blocks=1 txs=1  mgas=0.044 elapsed=9.965ms   mgasps=4.460   number=1583757 hash=60054f…cdddcd
+INFO [08-30|20:34:10] Commit new mining work                   number=1583758 txs=0  uncles=0 elapsed=404.287µs
+INFO [08-30|20:34:40] Imported new chain segment               blocks=1 txs=0  mgas=0.000 elapsed=6.366ms   mgasps=0.000   number=1583758 hash=c91292…d7c8dd
+INFO [08-30|20:34:40] Commit new mining work                   number=1583759 txs=2  uncles=0 elapsed=25.777ms
+INFO [08-30|20:34:55] Imported new chain segment               blocks=1 txs=1  mgas=0.099 elapsed=48.246ms  mgasps=2.044   number=1583759 hash=580b0b…30ac5d
+INFO [08-30|20:34:55] Commit new mining work                   number=1583760 txs=52 uncles=0 elapsed=103.975ms
+INFO [08-30|20:35:39] Imported new chain segment               blocks=1 txs=53 mgas=1.249 elapsed=105.348ms mgasps=11.856  number=1583760 hash=c781f4…c8657b
+INFO [08-30|20:35:39] Commit new mining work                   number=1583761 txs=4  uncles=0 elapsed=84.854ms
+INFO [08-30|20:36:02] Imported new chain segment               blocks=1 txs=4  mgas=0.677 elapsed=134.475ms mgasps=5.038   number=1583761 hash=c14267…b41106
+INFO [08-30|20:36:02] Commit new mining work                   number=1583762 txs=2  uncles=0 elapsed=14.904ms
+INFO [08-30|20:36:17] Imported new chain segment               blocks=1 txs=2  mgas=0.073 elapsed=19.206ms  mgasps=3.807   number=1583762 hash=24931e…bca6e5
+INFO [08-30|20:36:18] Commit new mining work                   number=1583763 txs=51 uncles=0 elapsed=94.293ms
+INFO [08-30|20:36:26] Imported new chain segment               blocks=1 txs=52 mgas=4.330 elapsed=130.062ms mgasps=33.288  number=1583763 hash=96b23e…a07529
+INFO [08-30|20:36:26] Commit new mining work                   number=1583764 txs=2  uncles=0 elapsed=8.243ms
+INFO [08-30|20:36:35] Imported new chain segment               blocks=1 txs=4  mgas=0.526 elapsed=24.458ms  mgasps=21.522  number=1583764 hash=99b428…a2c039
+INFO [08-30|20:36:35] Commit new mining work                   number=1583765 txs=3  uncles=0 elapsed=17.988ms
+INFO [08-30|20:36:35] Imported new chain segment               blocks=1 txs=2  mgas=0.458 elapsed=7.984ms   mgasps=57.300  number=1583764 hash=cd39fe…4f42f8
+INFO [08-30|20:36:35] Commit new mining work                   number=1583765 txs=3  uncles=1 elapsed=3.776ms
+INFO [08-30|20:36:57] Imported new chain segment               blocks=1 txs=5  mgas=0.158 elapsed=53.096ms  mgasps=2.977   number=1583765 hash=6d3d97…e77f43
+INFO [08-30|20:36:57] Commit new mining work                   number=1583766 txs=2  uncles=1 elapsed=38.058ms
+INFO [08-30|21:07:14] Imported new chain segment               blocks=138 txs=161 mgas=64.017 elapsed=1.552s    mgasps=41.242  number=1583903 hash=6a77bf…902ff5
+INFO [08-30|21:07:14] Commit new mining work                   number=1583904 txs=0   uncles=0 elapsed=1.842ms
+INFO [08-30|21:07:32] Imported new chain segment               blocks=2   txs=0   mgas=0.000  elapsed=203.014ms mgasps=0.000   number=1583905 hash=ae448a…c55b60
+INFO [08-30|21:07:32] Commit new mining work                   number=1583906 txs=5   uncles=0 elapsed=73.091ms
+INFO [08-30|21:07:32] Imported new chain segment               blocks=3   txs=4   mgas=0.394  elapsed=80.018ms  mgasps=4.927   number=1583908 hash=fc7f94…3c0d44
+INFO [08-30|21:07:32] Commit new mining work                   number=1583909 txs=1   uncles=0 elapsed=1.896ms
+INFO [08-30|21:07:39] Imported new chain segment               blocks=1   txs=0   mgas=0.000  elapsed=8.057ms   mgasps=0.000   number=1583909 hash=9c3d48…057cb0
+INFO [08-30|21:07:39] Commit new mining work                   number=1583910 txs=3   uncles=0 elapsed=9.687ms
+INFO [08-30|21:07:46] Imported new chain segment               blocks=1   txs=2   mgas=0.044  elapsed=21.023ms  mgasps=2.093   number=1583910 hash=5dc333…ae3d4c
+INFO [08-30|21:07:46] Commit new mining work                   number=1583911 txs=2   uncles=0 elapsed=38.888ms
+INFO [08-30|21:42:32] Imported new chain segment               blocks=8   txs=6   mgas=1.829  elapsed=312.280ms mgasps=5.857   number=1583918 hash=0b404f…df2ae6
+INFO [08-30|21:42:32] Commit new mining work                   number=1583919 txs=0   uncles=0 elapsed=24.556ms
+INFO [08-30|21:42:37] Imported new chain segment               blocks=153 txs=337 mgas=34.774 elapsed=3.506s    mgasps=9.916   number=1584071 hash=3bc075…baf3ae
+INFO [08-30|21:42:37] Commit new mining work                   number=1584072 txs=0   uncles=0 elapsed=17.965ms
+INFO [08-30|21:42:49] Imported new chain segment               blocks=3   txs=1   mgas=0.132  elapsed=237.914ms mgasps=0.554   number=1584074 hash=deb1e6…83d161
+INFO [08-30|21:42:49] Commit new mining work                   number=1584075 txs=0   uncles=0 elapsed=510.995µs
+INFO [08-30|21:43:13] IPC endpoint closed: /Users/cb_yeti/Library/Ethereum/testnet/geth.ipc 
+INFO [08-30|21:43:13] Blockchain manager stopped 
+INFO [08-30|21:43:13] Stopping Ethereum protocol 
+INFO [08-30|21:43:13] Ethereum protocol stopped 
+INFO [08-30|21:43:13] Transaction pool stopped 
+INFO [08-30|21:43:13] Database closed                          database=/Users/cb_yeti/Library/Ethereum/testnet/geth/chaindata
+INFO [08-31|22:09:14] Starting peer-to-peer node               instance=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.8.3
+INFO [08-31|22:09:14] Allocated cache and file handles         database=/Users/cb_yeti/Library/Ethereum/testnet/geth/chaindata cache=1024 handles=1024
+INFO [08-31|22:09:17] Initialised chain configuration          config="{ChainID: 3 Homestead: 0 DAO: <nil> DAOSupport: true EIP150: 0 EIP155: 10 EIP158: 10 Metropolis: 9223372036854775807 Engine: ethash}"
+INFO [08-31|22:09:17] Disk storage enabled for ethash caches   dir=/Users/cb_yeti/Library/Ethereum/testnet/geth/ethash count=3
+INFO [08-31|22:09:17] Disk storage enabled for ethash DAGs     dir=/Users/cb_yeti/.ethash                              count=2
+INFO [08-31|22:09:17] Initialising Ethereum protocol           versions="[63 62]" network=3
+INFO [08-31|22:09:17] Loaded most recent local header          number=1590062 hash=7b7add…af79ca td=1707535412281589
+INFO [08-31|22:09:17] Loaded most recent local full block      number=1590062 hash=7b7add…af79ca td=1707535412281589
+INFO [08-31|22:09:17] Loaded most recent local fast block      number=1590062 hash=7b7add…af79ca td=1707535412281589
+WARN [08-31|22:09:17] Blockchain not empty, fast sync disabled 
+INFO [08-31|22:09:17] Starting P2P networking 
+INFO [08-31|22:09:20] Mapped network port                      proto=udp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-31|22:09:20] UDP listener up                          self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-31|22:09:20] RLPx listener up                         self=enode://746e329b7c1bc0ae62cca15a865619429b44072ddedd938584718296bc3f1959c278cad839d62818089acb0d5ecb582fd15aab43570ff71f4dd33ecbbaa4bd80@74.71.104.155:30303
+INFO [08-31|22:09:20] HTTP endpoint opened: http://127.0.0.1:8545 
+INFO [08-31|22:09:20] IPC endpoint opened: /Users/cb_yeti/Library/Ethereum/testnet/geth.ipc 
+INFO [08-31|22:09:20] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [08-31|22:10:37] Imported new chain segment               blocks=1 txs=2 mgas=0.034 elapsed=24.849ms mgasps=1.386 number=1590063 hash=8f9899…0b69b6
+INFO [08-31|22:11:12] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.067ms mgasps=0.000 number=1590064 hash=9286f7…603f70
+INFO [08-31|22:11:28] Imported new chain segment               blocks=1 txs=4 mgas=0.227 elapsed=44.903ms mgasps=5.062 number=1590065 hash=f1dff3…e6b889
+INFO [08-31|22:11:34] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.941ms mgasps=0.000 number=1590066 hash=766281…f0f220
+INFO [08-31|22:12:13] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.591ms mgasps=0.000 number=1590067 hash=82dd16…731ad4
